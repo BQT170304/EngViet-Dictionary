@@ -1,0 +1,444 @@
+apple,táo
+abstract,trừu tượng
+achieve,đạt được
+adhere,tuân thủ
+adjourn,hoãn lại
+admissible,được chấp nhận
+admonish,quở trách
+advantage,lợi thế
+adverse,bất lợi
+advocate,ủng hộ
+affluent,giàu có
+aggravate,làm trầm trọng thêm
+aggression,sự hung hăng
+ambiguous,mơ hồ
+amend,sửa đổi
+analogy,sự tương tự
+analyze,phân tích
+anarchy,tình trạng vô chính phủ
+anomaly,sự bất thường
+antithesis,sự đối lập
+anxious,lo lắng
+apathy,sự thờ ơ
+appetite,sự thèm ăn
+application,ứng dụng
+apprehend,bắt giữ
+apprehensive,lo lắng
+appropriate,thích hợp
+aptitude,năng khiếu
+arbitrary,tùy tiện
+argument,lập luận
+articulate,rõ ràng
+ascertain,xác định
+ascetic,khổ hạnh
+assess,đánh giá
+assiduous,cần cù
+assuage,làm dịu
+assume,giả sử
+authentic,xác thực
+autonomous,tự trị
+aver,khẳng định
+average,trung bình
+aversion,sự ghê tởm
+avid,đam mê
+baffle,làm cho bối rối
+banana,chuối
+bane,tai họa
+beautiful,đẹp
+benefit,lợi ích
+benevolent,nhân hậu
+bicker,cãi vã
+big,lớn
+bleak,ảm đạm
+bloated,phình to
+blunt,thẳng thắn
+bolster,củng cố
+bonanza,sự giàu có
+bothersome,phiền phức
+boy,cậu bé
+boycott,tẩy chay
+brawny,vạm vỡ
+brazen,trơ tráo
+breach,sự vi phạm
+brevity,tính ngắn gọn
+burgeoning,đang phát triển
+calculate,tính toán
+car,ô tô
+cat,mèo
+catastrophe,thảm họa
+cautious,thận trọng
+cease,ngừng
+censure,chỉ trích
+chagrin,sự thất vọng
+challenge,thách thức
+challenging,đầy thử thách
+chaotic,hỗn loạn
+charity,lòng thương xót
+chaste,trong trắng
+chauvinist,người theo chủ nghĩa sô vanh
+chubby,mập mạp
+circumspect,thận trọng
+circumvent,lách
+city,thành phố
+clandestine,bí mật
+classify,phân loại
+claustrophobic,sợ không gian chật hẹp
+cleave,dính chặt
+clement,nhân từ
+clog,làm tắc nghẽn
+coarse,thô lỗ
+cogent,thuyết phục
+collusion,sự thông đồng
+commend,khen ngợi
+commiserate,thông cảm
+commodity,hàng hóa
+commotion,sự náo động
+commute,đi lại
+compact,nhỏ gọn
+compare,so sánh
+compel,bắt buộc
+complacent,tự mãn
+conclude,kết luận
+conclusion,kết luận
+conjecture,phỏng đoán
+consider,xem xét
+contrast,đối chiếu
+criticize,phê bình
+data,dữ liệu
+daunt,làm nhụt chí
+day,ngày
+debase,làm mất giá trị
+debilitate,làm suy yếu
+debonair,lịch lãm
+decadence,sự suy tàn
+decisive,quyết đoán
+decorum,phép tắc
+deem,cho là
+defeat,thất bại
+defiance,sự thách thức
+defiant,thách thức
+define,định nghĩa
+definitive,xác định
+degrade,hạ thấp
+dehumanize,phi nhân hóa
+delusion,ảo tưởng
+demise,sự qua đời
+demolish,phá hủy
+demonstrate,chứng minh
+demoralize,làm mất tinh thần
+denote,biểu thị
+depict,miêu tả
+deplore,lên án
+deport,trục xuất
+deportment,cách cư xử
+deprecate,chê bai
+depress,làm suy sụp
+deprive,tước đoạt
+deride,chế giễu
+derogatory,miệt thị
+describe,mô tả
+desolate,hoang vắng
+despair,tuyệt vọng
+desperate,tuyệt vọng
+despicable,đáng khinh
+despot,bạo chúa
+despotism,chế độ chuyên chế
+destabilize,làm mất ổn định
+destined,được định mệnh
+destitution,sự nghèo khó
+destroy,phá hủy
+destruction,sự phá hủy
+detach,tách rời
+detailed,chi tiết
+detain,giam giữ
+deterrent,chất ngăn ngừa
+detract,làm giảm
+devastate,tàn phá
+develop,phát triển
+devote,dành cho
+dexterity,sự khéo léo
+diagram,sơ đồ
+dictate,ra lệnh
+diffident,thiếu tự tin
+dilapidated,đổ nát
+dilemma,tình thế khó xử
+diminish,làm giảm
+disabuse,giải tỏa hiểu lầm
+disadvantage,bất lợi
+disagree,không đồng ý
+disallow,không cho phép
+disappoint,thất vọng
+disapprobation,sự không tán thành
+disarm,làm mất vũ khí
+disassociate,tách rời
+disavow,chối bỏ
+disband,giải tán
+disburse,chi trả
+discern,nhận ra
+discharge,giải phóng
+discipline,kỷ luật
+disclaim,từ chối
+disclose,tiết lộ
+discompose,làm mất tinh thần
+disconcert,làm bối rối
+discontent,bất mãn
+discontinue,ngừng
+discredit,làm mất uy tín
+discreet,kín đáo
+discriminate,phân biệt đối xử
+discuss,thảo luận
+disdain,khinh thường
+disease,bệnh tật
+disgrace,ô nhục
+disguise,ngụy trang
+disgust,ghê tởm
+dishearten,làm nhụt chí
+dishonest,không trung thực
+dishonor,làm nhục
+disillusioned,thất vọng
+disintegrate,phân rã
+disinterest,không quan tâm
+disjointed,rời rạc
+dislike,không thích
+dislocate,làm trật khớp
+distribute,phân phối
+document,tài liệu
+dog,chó
+early,sớm
+easy,dễ dàng
+eat,ăn
+economy,nền kinh tế
+education,giáo dục
+effect,tác động
+efficient,hiệu quả
+effort,nỗ lực
+egg,quả trứng
+eight,tám
+either,hoặc
+electric,điện
+element,thành phần
+else,khác
+empty,trống rỗng
+enable,cho phép
+end,kết thúc
+enemy,kẻ thù
+energy,năng lượng
+engage,tham gia
+engine,động cơ
+enjoy,tận hưởng
+enough,đủ
+enter,bước vào
+entire,toàn bộ
+environment,môi trường
+equal,bằng nhau
+equipment,thiết bị
+error,lỗi
+escape,trốn thoát
+especially,đặc biệt là
+essay,bài luận
+establish,thành lập
+estimate,ước tính
+evaluate,đánh giá
+even,thậm chí
+event,sự kiện
+every,mỗi
+evidence,bằng chứng
+exact,chính xác
+examine,nghiên cứu
+example,ví dụ
+explain,giải thích
+factor,yếu tố
+family,gia đình
+figure,con số
+focus,tập trung
+friend,bạn
+function,chức năng
+garbage,rác
+garden,vườn
+gas,khí
+gate,cổng
+gather,thu thập
+general,chung
+generation,thế hệ
+generous,hào phóng
+genre,thể loại
+gentle,dịu dàng
+gesture,cử chỉ
+gift,món quà
+girl,cô gái
+glance,liếc nhìn
+global,toàn cầu
+glory,vinh quang
+glove,găng tay
+go,đi
+goal,mục tiêu
+god,thần
+gold,vàng
+good,tốt
+government,chính phủ
+grade,điểm
+grain,hạt
+grand,vĩ đại
+grant,cấp
+grass,cỏ
+gray,xám
+great,vĩ đại
+greed,tham lam
+green,xanh lá cây
+greet,chào
+grocery,tạp hóa
+group,nhóm
+grow,phát triển
+guide,hướng dẫn
+guilty,có tội
+guitar,guitar
+habit,thói quen
+hair,tóc
+half,nửa
+hall,sảnh
+hammer,búa
+hand,tay
+hang,treo
+happen,xảy ra
+happy,hạnh phúc
+hard,cứng
+hat,mũ
+have,có
+head,đầu
+help,giúp đỡ
+home,nhà
+hot,nóng
+house,nhà
+hypothesis,giả thuyết
+identify,xác định
+implication,hàm ý
+improve,cải thiện
+indicate,chỉ ra
+inference,suy luận
+influence,ảnh hưởng
+interpret,giải thích
+investigate,điều tra
+issue,vấn đề
+justify,biện minh
+like,thích
+limit,giới hạn
+literature,tài liệu
+love,yêu
+man,người đàn ông
+measure,đo lường
+method,phương pháp
+model,mô hình
+monitor,theo dõi
+mother,mẹ
+music,âm nhạc
+negative,tiêu cực
+new,mới
+no,không
+observation,quan sát
+observe,quan sát
+one,một
+opinion,ý kiến
+organize,tổ chức
+outline,phác thảo
+parameter,tham số
+people,người
+positive,tích cực
+predict,dự đoán
+prepare,chuẩn bị
+present,trình bày
+pretty,xinh đẹp
+process,quá trình
+prove,chứng minh
+provide,cung cấp
+recommend,khuyến nghị
+refer,tham khảo
+relate,liên quan
+report,báo cáo
+represent,đại diện
+research,nghiên cứu
+result,kết quả
+same,giống nhau
+sandwich,bánh mì kẹp
+satisfied,hài lòng
+save,tiết kiệm
+say,nói
+scene,cảnh
+schedule,lịch trình
+school,trường học
+science,khoa học
+screen,màn hình
+sea,biển
+seat,ghế
+secret,bí mật
+secretary,thư ký
+section,phần
+secure,an toàn
+see,nhìn thấy
+seed,hạt
+seek,tìm kiếm
+seem,dường như
+selection,lựa chọn
+sell,bán
+send,gửi
+sense,cảm giác
+sentence,câu
+separate,tách biệt
+serious,nghiêm túc
+serve,phục vụ
+service,dịch vụ
+session,phiên họp
+set,đặt
+settle,ổn định
+several,vài
+severe,nghiêm trọng
+shadow,bóng
+shall,sẽ
+shame,xấu hổ
+shape,hình dạng
+share,chia sẻ
+sharp,sắc
+she,cô ấy
+sheep,cừu
+sheet,tấm
+shelf,kệ
+sheriff,cảnh sát trưởng
+shift,thay đổi
+shine,tỏa sáng
+ship,tàu
+shirt,áo sơ mi
+shock,sốc
+short,ngắn
+should,nên
+shoulder,vai
+shout,hét lên
+show,hiển thị
+smile,mỉm cười
+solution,giải pháp
+solve,giải quyết
+speak,nói
+star,ngôi sao
+statistic,thống kê
+stop,dừng lại
+study,học tập
+summarize,tóm tắt
+sun,mặt trời
+support,hỗ trợ
+theory,lý thuyết
+time,thời gian
+tree,cây
+trend,xu hướng
+two,hai
+understand,hiểu
+utilize,sử dụng
+variable,biến
+want,muốn
+water,nước
+we,chúng ta
+what,cái gì
+when,khi nào
+where,ở đâu
+white,trắng
+why,tại sao
+world,thế giới
+yes,vâng
+you,bạn

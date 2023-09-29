@@ -1,11 +1,14 @@
 package com.example.dictionary;
 
+import com.opencsv.exceptions.CsvValidationException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
 
 public class Main extends Application {
     @Override
@@ -17,7 +20,11 @@ public class Main extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
+    public static void main(String[] args) throws IOException {
+        DictionaryManagement dictManagement = new DictionaryManagement();
+        Word word = new Word("abstract");
+        dictManagement.dictionaryLookup(word);
+        System.out.println(word.getDefinition());
+        // launch();
     }
 }
