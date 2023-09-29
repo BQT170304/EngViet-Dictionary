@@ -1,5 +1,4 @@
 apple,táo
-abstract,trừu tượng
 achieve,đạt được
 adhere,tuân thủ
 adjourn,hoãn lại
@@ -440,5 +439,11 @@ where,ở đâu
 white,trắng
 why,tại sao
 world,thế giới
-yes,vâng
 you,bạn
+travel,đi lại
+tradition,truyền thống
+abstract,trừu tượng
+wheel,bánh xe
+elephant,con voi
+entrepreneur,doanh nhân
+developer,lập trình viên
