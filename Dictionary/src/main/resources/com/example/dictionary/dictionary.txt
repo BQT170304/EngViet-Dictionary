@@ -1,449 +1,269 @@
-apple,táo
-achieve,đạt được
-adhere,tuân thủ
-adjourn,hoãn lại
-admissible,được chấp nhận
-admonish,quở trách
-advantage,lợi thế
-adverse,bất lợi
-advocate,ủng hộ
-affluent,giàu có
-aggravate,làm trầm trọng thêm
-aggression,sự hung hăng
-ambiguous,mơ hồ
-amend,sửa đổi
-analogy,sự tương tự
-analyze,phân tích
-anarchy,tình trạng vô chính phủ
-anomaly,sự bất thường
-antithesis,sự đối lập
-anxious,lo lắng
-apathy,sự thờ ơ
-appetite,sự thèm ăn
-application,ứng dụng
-apprehend,bắt giữ
-apprehensive,lo lắng
-appropriate,thích hợp
-aptitude,năng khiếu
-arbitrary,tùy tiện
-argument,lập luận
-articulate,rõ ràng
-ascertain,xác định
-ascetic,khổ hạnh
-assess,đánh giá
-assiduous,cần cù
-assuage,làm dịu
-assume,giả sử
-authentic,xác thực
-autonomous,tự trị
-aver,khẳng định
-average,trung bình
-aversion,sự ghê tởm
-avid,đam mê
-baffle,làm cho bối rối
-banana,chuối
-bane,tai họa
-beautiful,đẹp
-benefit,lợi ích
-benevolent,nhân hậu
-bicker,cãi vã
-big,lớn
-bleak,ảm đạm
-bloated,phình to
-blunt,thẳng thắn
-bolster,củng cố
-bonanza,sự giàu có
-bothersome,phiền phức
-boy,cậu bé
-boycott,tẩy chay
-brawny,vạm vỡ
-brazen,trơ tráo
-breach,sự vi phạm
-brevity,tính ngắn gọn
-burgeoning,đang phát triển
-calculate,tính toán
-car,ô tô
-cat,mèo
-catastrophe,thảm họa
-cautious,thận trọng
-cease,ngừng
-censure,chỉ trích
-chagrin,sự thất vọng
-challenge,thách thức
-challenging,đầy thử thách
-chaotic,hỗn loạn
-charity,lòng thương xót
-chaste,trong trắng
-chauvinist,người theo chủ nghĩa sô vanh
-chubby,mập mạp
-circumspect,thận trọng
-circumvent,lách
-city,thành phố
-clandestine,bí mật
-classify,phân loại
-claustrophobic,sợ không gian chật hẹp
-cleave,dính chặt
-clement,nhân từ
-clog,làm tắc nghẽn
-coarse,thô lỗ
-cogent,thuyết phục
-collusion,sự thông đồng
-commend,khen ngợi
-commiserate,thông cảm
-commodity,hàng hóa
-commotion,sự náo động
-commute,đi lại
-compact,nhỏ gọn
-compare,so sánh
-compel,bắt buộc
-complacent,tự mãn
-conclude,kết luận
-conclusion,kết luận
-conjecture,phỏng đoán
-consider,xem xét
-contrast,đối chiếu
-criticize,phê bình
-data,dữ liệu
-daunt,làm nhụt chí
-day,ngày
-debase,làm mất giá trị
-debilitate,làm suy yếu
-debonair,lịch lãm
-decadence,sự suy tàn
-decisive,quyết đoán
-decorum,phép tắc
-deem,cho là
-defeat,thất bại
-defiance,sự thách thức
-defiant,thách thức
-define,định nghĩa
-definitive,xác định
-degrade,hạ thấp
-dehumanize,phi nhân hóa
-delusion,ảo tưởng
-demise,sự qua đời
-demolish,phá hủy
-demonstrate,chứng minh
-demoralize,làm mất tinh thần
-denote,biểu thị
-depict,miêu tả
-deplore,lên án
-deport,trục xuất
-deportment,cách cư xử
-deprecate,chê bai
-depress,làm suy sụp
-deprive,tước đoạt
-deride,chế giễu
-derogatory,miệt thị
-describe,mô tả
-desolate,hoang vắng
-despair,tuyệt vọng
-desperate,tuyệt vọng
-despicable,đáng khinh
-despot,bạo chúa
-despotism,chế độ chuyên chế
-destabilize,làm mất ổn định
-destined,được định mệnh
-destitution,sự nghèo khó
-destroy,phá hủy
-destruction,sự phá hủy
-detach,tách rời
-detailed,chi tiết
-detain,giam giữ
-deterrent,chất ngăn ngừa
-detract,làm giảm
-devastate,tàn phá
-develop,phát triển
-devote,dành cho
-dexterity,sự khéo léo
-diagram,sơ đồ
-dictate,ra lệnh
-diffident,thiếu tự tin
-dilapidated,đổ nát
-dilemma,tình thế khó xử
-diminish,làm giảm
-disabuse,giải tỏa hiểu lầm
-disadvantage,bất lợi
-disagree,không đồng ý
-disallow,không cho phép
-disappoint,thất vọng
-disapprobation,sự không tán thành
-disarm,làm mất vũ khí
-disassociate,tách rời
-disavow,chối bỏ
-disband,giải tán
-disburse,chi trả
-discern,nhận ra
-discharge,giải phóng
-discipline,kỷ luật
-disclaim,từ chối
-disclose,tiết lộ
-discompose,làm mất tinh thần
-disconcert,làm bối rối
-discontent,bất mãn
-discontinue,ngừng
-discredit,làm mất uy tín
-discreet,kín đáo
-discriminate,phân biệt đối xử
-discuss,thảo luận
-disdain,khinh thường
-disease,bệnh tật
-disgrace,ô nhục
-disguise,ngụy trang
-disgust,ghê tởm
-dishearten,làm nhụt chí
-dishonest,không trung thực
-dishonor,làm nhục
-disillusioned,thất vọng
-disintegrate,phân rã
-disinterest,không quan tâm
-disjointed,rời rạc
-dislike,không thích
-dislocate,làm trật khớp
-distribute,phân phối
-document,tài liệu
-dog,chó
-early,sớm
-easy,dễ dàng
-eat,ăn
-economy,nền kinh tế
-education,giáo dục
-effect,tác động
-efficient,hiệu quả
-effort,nỗ lực
-egg,quả trứng
-eight,tám
-either,hoặc
-electric,điện
-element,thành phần
-else,khác
-empty,trống rỗng
-enable,cho phép
-end,kết thúc
-enemy,kẻ thù
-energy,năng lượng
-engage,tham gia
-engine,động cơ
-enjoy,tận hưởng
-enough,đủ
-enter,bước vào
-entire,toàn bộ
-environment,môi trường
-equal,bằng nhau
-equipment,thiết bị
-error,lỗi
-escape,trốn thoát
-especially,đặc biệt là
-essay,bài luận
-establish,thành lập
-estimate,ước tính
-evaluate,đánh giá
-even,thậm chí
-event,sự kiện
-every,mỗi
-evidence,bằng chứng
-exact,chính xác
-examine,nghiên cứu
-example,ví dụ
-explain,giải thích
-factor,yếu tố
-family,gia đình
-figure,con số
-focus,tập trung
-friend,bạn
-function,chức năng
-garbage,rác
-garden,vườn
-gas,khí
-gate,cổng
-gather,thu thập
-general,chung
-generation,thế hệ
-generous,hào phóng
-genre,thể loại
-gentle,dịu dàng
-gesture,cử chỉ
-gift,món quà
-girl,cô gái
-glance,liếc nhìn
-global,toàn cầu
-glory,vinh quang
-glove,găng tay
-go,đi
-goal,mục tiêu
-god,thần
-gold,vàng
-good,tốt
-government,chính phủ
-grade,điểm
-grain,hạt
-grand,vĩ đại
-grant,cấp
-grass,cỏ
-gray,xám
-great,vĩ đại
-greed,tham lam
-green,xanh lá cây
-greet,chào
-grocery,tạp hóa
-group,nhóm
-grow,phát triển
-guide,hướng dẫn
-guilty,có tội
-guitar,guitar
-habit,thói quen
-hair,tóc
-half,nửa
-hall,sảnh
-hammer,búa
-hand,tay
-hang,treo
-happen,xảy ra
-happy,hạnh phúc
-hard,cứng
-hat,mũ
-have,có
-head,đầu
-help,giúp đỡ
-home,nhà
-hot,nóng
-house,nhà
-hypothesis,giả thuyết
-identify,xác định
-implication,hàm ý
-improve,cải thiện
-indicate,chỉ ra
-inference,suy luận
-influence,ảnh hưởng
-interpret,giải thích
-investigate,điều tra
-issue,vấn đề
-justify,biện minh
-like,thích
-limit,giới hạn
-literature,tài liệu
-love,yêu
-man,người đàn ông
-measure,đo lường
-method,phương pháp
-model,mô hình
-monitor,theo dõi
-mother,mẹ
-music,âm nhạc
-negative,tiêu cực
-new,mới
-no,không
-observation,quan sát
-observe,quan sát
-one,một
-opinion,ý kiến
-organize,tổ chức
-outline,phác thảo
-parameter,tham số
-people,người
-positive,tích cực
-predict,dự đoán
-prepare,chuẩn bị
-present,trình bày
-pretty,xinh đẹp
-process,quá trình
-prove,chứng minh
-provide,cung cấp
-recommend,khuyến nghị
-refer,tham khảo
-relate,liên quan
-report,báo cáo
-represent,đại diện
-research,nghiên cứu
-result,kết quả
-same,giống nhau
-sandwich,bánh mì kẹp
-satisfied,hài lòng
-save,tiết kiệm
-say,nói
-scene,cảnh
-schedule,lịch trình
-school,trường học
-science,khoa học
-screen,màn hình
-sea,biển
-seat,ghế
-secret,bí mật
-secretary,thư ký
-section,phần
-secure,an toàn
-see,nhìn thấy
-seed,hạt
-seek,tìm kiếm
-seem,dường như
-selection,lựa chọn
-sell,bán
-send,gửi
-sense,cảm giác
-sentence,câu
-separate,tách biệt
-serious,nghiêm túc
-serve,phục vụ
-service,dịch vụ
-session,phiên họp
-set,đặt
-settle,ổn định
-several,vài
-severe,nghiêm trọng
-shadow,bóng
-shall,sẽ
-shame,xấu hổ
-shape,hình dạng
-share,chia sẻ
-sharp,sắc
-she,cô ấy
-sheep,cừu
-sheet,tấm
-shelf,kệ
-sheriff,cảnh sát trưởng
-shift,thay đổi
-shine,tỏa sáng
-ship,tàu
-shirt,áo sơ mi
-shock,sốc
-short,ngắn
-should,nên
-shoulder,vai
-shout,hét lên
-show,hiển thị
-smile,mỉm cười
-solution,giải pháp
-solve,giải quyết
-speak,nói
-star,ngôi sao
-statistic,thống kê
-stop,dừng lại
-study,học tập
-summarize,tóm tắt
-sun,mặt trời
-support,hỗ trợ
-theory,lý thuyết
-time,thời gian
-tree,cây
-trend,xu hướng
-two,hai
-understand,hiểu
-utilize,sử dụng
-variable,biến
-want,muốn
-water,nước
-we,chúng ta
-what,cái gì
-when,khi nào
-where,ở đâu
-white,trắng
-why,tại sao
-world,thế giới
-you,bạn
-travel,đi lại
-tradition,truyền thống
-abstract,trừu tượng
-wheel,bánh xe
-elephant,con voi
-entrepreneur,doanh nhân
-developer,lập trình viên
+are,là,/ɑː/
+argument,lập luận,/ˈɑːɡjumənt/
+argumentative essay,bài luận lập luận,/ˈɑːɡjuməntətɪv ˈesɪ/
+answer,Câu trả lời,/ˈɑːnsər/
+art,nghệ thuật,/ɑːrt/
+article,bài báo,/ˈɑːtɪkl/
+abstract,tóm tắt,/ˈæbstrækt/
+after,sau,/ˈæftə/
+accurate,Chính xác,/ˈækjʊrɪt/
+acknowledgement,lời cảm ơn,/ˌæknɒlɪˈdʒmənt/
+accident,tai nạn,/ˈæksɪdɛnt/
+and,và,/ænd/
+animal,Động vật,/ˈænɪməl/
+apple,táo,/ˈæpəl/
+at,tại,/æt/
+as,như,/æz/
+eye,mắt,/aɪ/
+I,tôi,/aɪ/
+ice cream,kem,/aɪs kriːm/
+ice,đá,/aɪs/
+on,trên,/ɒn/
+opportunistic,Cơ hội,/ɒpəˈtjuːnɪstɪk/
+orange,quả cam,/ˈɒrɪnʤ/
+out,ra ngoài,/aʊt/
+outline essay,bài luận dàn ý,/ˈaʊtlʌɪn ˈesɪ/
+outline,dàn ý,/ˈaʊtlʌɪn/
+of,của,/ɒv/
+body,Cơ thể,/ˈbɒdi/
+bag,túi,/bæg/
+box,Chiếc hộp,/bɒks/
+ball,quả bóng,/bɔːl/
+bed,Giường,/bed/
+baby,em bé,/ˈbeɪbi/
+but,nhưng,/bət/
+bird,Con chim,/bɜːd/
+be,là,/biː/
+bibliography entry,mục thư mục,/ˌbɪblɪəˈɡrɑːfi ˈɛntri/
+bibliography,thư mục,/ˌbɪblɪəˈɡrɑːfi/
+because,bởi vì,/biˈkɒz/
+believe,tin,/bɪˈliːv/
+beautiful,Xinh đẹp,/ˈbjuːtɪfəl/
+book,Quyển sách,/bʊk/
+or,hoặc,/ɔː/
+all,tất cả,/ɔːl/
+also,cũng,/ˈɔːlsoʊ/
+jacket,áo khoác,/ˈʤækɪt/
+that,rằng,/ðæt/
+dog,con chó,/dɒɡ/
+document,tài liệu,/ˈdɒkjumənt/
+doctor,bác sĩ,/ˈdɒktə/
+down,xuống,/daʊn/
+door,cửa,/dɔː/
+the,cái,/ðə/
+their,của họ,/ðeə/
+there,ở đó,/ðeə/
+day,ngày,/deɪ/
+they,họ,/ðeɪ/
+dangerous,Nguy hiểm,/ˈdeɪnʤrəs/
+data analysis,phân tích dữ liệu,/ˈdeɪtə əˈnæləsɪs/
+data,dữ liệu,/ˈdeɪtə/
+them,họ,/ðəm/
+then,sau đó,/ðen/
+these,những cái này,/ðiːz/
+difficult,Khó khăn,/ˈdɪfɪkəlt/
+this,cái này,/ðɪs/
+discussion section,phần thảo luận,/dɪˈskəʃən ˈsekʃən/
+discussion,thảo luận,/dɪˈskəʃən/
+do,làm,/duː/
+job,công việc,/dʒɒb/
+juice,nước trái cây,/dʒuːs/
+objective,khách quan,/əbˈdʒɛktɪv/
+above,trên,/əˈbʌv/
+air,Không khí,/eə/
+again,lại,/əˈɡeɪn/
+agreeable,Chấp thuận/ đồng ý,/əˈgriːəbəl/
+x-ray,tia X,/ˌeks ˈreɪ/
+analysis,phân tích,/əˈnæləsɪs/
+appendix,phụ lục,/əˈpɛndɪks/
+assignment,bài tập,/əˈsɑːnmənt/
+ocean,đại dương,/əˈʃɪən/
+evidence,bằng chứng,/ˈevɪdəns/
+egg,quả trứng,/ɛɡ/
+any,bất kỳ,/ˈɛni/
+evaluation,đánh giá,/ˌɛvəlʊˈeɪʃən/
+family,gia đình,/ˈfæməli/
+for,cho,/fɔːr/
+forget,quên,/fəˈɡɒt/
+phone,điện thoại,/fəʊn/
+feel,cảm thấy,/fiːl/
+finish,kết thúc,/ˈfɪnɪʃ/
+fish,con cá,/fɪʃ/
+from,từ,/frɒm/
+friend,Bạn bè,/frɛnd/
+game,trò chơi,/ɡeɪm/
+get,nhận được,/ɡet/
+go,đi,/ɡəʊ/
+girl,cô gái,/ɡɜːl/
+had,đã,/hæd/
+hand,tay,/hænd/
+hat,mũ,/hæt/
+have to,phải,/hæv tə/
+have,có,/hæv/
+hypothesis testing,kiểm tra giả thuyết,/haɪˈpɒθɪsɪs ˈtɛstɪŋ/
+hypothesis,giả thuyết,/haɪˈpɒθɪsɪs/
+Horrible,Kinh khủng/ đáng ghét,/ˈhɒrɪbəl/
+how,như thế nào,/haʊ/
+house,ngôi nhà,/haʊs/
+healthy,Khỏe mạnh,/ˈhelθi/
+her,cô ấy,/hɜː/
+he,anh ấy,/hiː/
+him,anh ấy,/hɪm/
+his,của anh ấy,/hɪz/
+if,nếu,/ɪf/
+efficient,Hiệu quả,/ɪˈfɪʃənt/
+expensive,Đắt đỏ,/ɪkˈspensɪv/
+experiment,thí nghiệm,/ɪkˈspɛrɪmənt/
+important,Quan trọng,/ɪmˈpɔːtənt/
+empirical research,nghiên cứu thực nghiệm,/ɪmˈpɪrɪkəl ˈrɪːsɜːʧ/
+in,trong,/ɪn/
+independent,Độc lập,/ɪnˈdɪpəndənt/
+intelligent,Thông minh,/ɪnˈtɛlɪʤənt/
+introduction,phần mở đầu,/ˌɪntrəˈdʌkʃən/
+Interesting,Thú vị,/ˈɪntrəstɪŋ/
+it,nó,/ɪt/
+is,là,/ɪz/
+yard,sân,/jɑːd/
+year,năm,/jɪə/
+you,bạn,/juː/
+university,trường đại học,/juːnɪˈvɜːsəti/
+useful,Hữu ích,/ˈjuːsfʊl/
+unique,Độc đáo,/juˈniːk/
+young,Trẻ,/jʌŋ/
+car,ô tô,/kɑː/
+camera,máy ảnh,/ˈkæmərə/
+can,có thể,/kæn/
+can't,không thể,/kænt/
+cat,con mèo,/kæt/
+kind,Tốt bụng,/kaɪnd/
+kind-hearted,Tốt bụng,/kaɪndˈhɑːtɪd/
+computer,Máy tính,/kəmˈpjuːtə/
+conclusion,kết luận,/kənˈkluːʒən/
+concise,súc tích,/kənˈsɪs/
+continue,tiếp tục,/kənˈtɪnjuː/
+key,chìa khóa,/kiː/
+keyboard,bàn phím,/ˈkiːbɔːd/
+creative,Sáng tạo,/kriˈeɪtɪv/
+could,có thể,/kʊd/
+quantitative research,nghiên cứu định lượng,/kwɒnˈtɪtɪtɪv ˈrɪːsɜːʧ/
+question,câu hỏi,/ˈkwɛstʃən/
+queen,nữ hoàng,/kwiːn/
+quick,Nhanh chóng,/kwɪk/
+Large,Lớn,/lɑːʤ/
+lion,sư tử,/ˈlaɪən/
+like to,thích,/laɪk tə/
+like,giống như,/laɪk/
+light,Ánh sáng,/laɪt/
+Loyal,Trung thành,/ˈlɔɪəl/
+learn,học,/lɜːn/
+leg,chân,/lɛg/
+letter,chữ cái,/ˈlɛtə/
+leaf,lá,/liːf/
+literature review essay,bài luận tổng quan tài liệu,/ˌlɪtərəˈtʃə riˈvjuː ˈesɪ/
+literature review,tổng quan tài liệu,/ˌlɪtərəˈtʃə riˈvjuː/
+love to,yêu thích,/lʌv tə/
+love,yêu,/lʌv/
+man,người đàn ông,/mæn/
+my,của tôi,/maɪ/
+mouth,Cái miệng,/maʊθ/
+make,làm,/meɪk/
+methodology,phương pháp luận,/ˌmɛθəˈdɒlədʒi/
+methodological approach,cách tiếp cận phương pháp luận,/ˌmɛθəˈdɒlədʒɪkəl əˈprəʊʧ/
+money,tiền,/ˈmʌni/
+must,phải,/mʌst/
+mustn't,không được,/mʌstnt/
+night,Đêm,/naɪt/
+not,không,/nɒt/
+name,Tên,/neɪm/
+necessary,Cần thiết,/ˈnesɪsərɪ/
+no,không,/nəʊ/
+know,biết,/nəʊ/
+note,ghi chú,/nəʊt/
+nose,mũi,/nəʊz/
+need,cần,/niːd/
+number,số,/ˈnʌmbə/
+park,công viên,/pɑːk/
+paragraph development,phát triển đoạn văn,/ˈpærəˌgræf ˈdɪˈvɛləpmənt/
+paragraph,đoạn văn,/ˈpærəˌgræf/
+Possible,Có thể,/ˈpɒsəbəl/
+powerful,Quyền lực, mạnh mẽ,/ˈpaʊəfʊl/
+patient,Nhẫn nại,/ˈpeɪʃənt/
+pen,cây bút,/pen/
+perfect,Hoàn hảo,/ˈpɜːfɪkt/
+person,Người,/ˈpɜːsən/
+pencil,bút chì,/ˈpɛnsl/
+peer review,thẩm định đồng nghiệp,/pɪr ˈrɪvjuː/
+plagiarism,đạo văn,/ˈpleɪdʒərɪzəm/
+problem,vấn đề,/ˈprɒbləm/
+proposal,đề xuất,/prəˈpəʊzl/
+writing style,phong cách viết,/ˈraɪtɪŋ staɪl/
+red,đỏ,/rɛd/
+research paper,bài báo nghiên cứu,/ˈrɪːsɜːʧ peɪpə/
+research,nghiên cứu,/ˈrɪːsɜːʧ/
+remember,nhớ,/rɪˈmɛmbə/
+responsible,Có trách nhiệm,/rɪˈspɒnsəbəl/
+review,đánh giá,/rɪˈvjuː/
+result,kết quả,/rɪˈzʌlt/
+results section,phần kết quả,/rɪˈzʌlts ˈsekʃən/
+room,phòng,/ruːm/
+sad,Buồn,/sæd/
+shy,Nhút nhát,/ʃaɪ/
+source,nguồn,/sɔːs/
+say,nói,/seɪ/
+so,vậy,/səʊ/
+section,phần,/ˈsɛkʃən/
+see,nhìn thấy,/siː/
+sea,Biển,/siː/
+she,cô ấy,/ʃiː/
+seem,có vẻ như,/siːm/
+serious,Nghiêm túc,/ˈsɪərɪəs/
+citation,trích dẫn,/sɪˈteɪʃən/
+city,Thành phố,/ˈsɪti/
+scholarly writing,viết học thuật,/ˈskɒləli ˈraɪtɪŋ/
+school,trường học,/skuːl/
+Small,Nhỏ,/smɔːl/
+start,bắt đầu,/stɑːt/
+stop,dừng lại,/stɒp/
+statistic,số liệu thống kê,/stəˈtɪstɪk/
+statistical analysis,phân tích thống kê,/stəˈtɪstɪkəl əˈnæləsɪs/
+Strong,Mạnh mẽ,/strɒŋ/
+should,nên,/ʃʊd/
+shouldn't,không nên,/ʃʊdnt/
+some,một số,/sʌm/
+sun,mặt trời,/sʌn/
+talented,Tài năng,/ˈtæləntɪd/
+topic sentence,câu chủ đề,/ˈtɒpɪk ˈsentəns/
+topic,chủ đề,/ˈtɒpɪk/
+table,bàn,/ˈteɪbl/
+take,lấy,/teɪk/
+terrible,Khủng khiếp,/ˈterəbəl/
+try,cố gắng,/trai/
+tree,cây,/triː/
+chapter,chương,/ˈtʃæptə/
+to,đến,/tuː/
+van,xe tải nhỏ,/væn/
+vegetable,rau,/ˈvedʒɪtəbəl/
+variable,biến,/ˈvɛrɪəbl/
+vicious,Ác độc,/ˈvɪʃəs/
+umbrella,ô,/ʌmˈbɾɛlə/
+understand,hiểu,/ˌʌndəˈstænd/
+wise,Khôn ngoan,/waɪz/
+want to,muốn,/wɒnt tə/
+want,muốn,/wɒnt/
+was,là,/wɒz/
+water,nước,/ˈwɔːtə/
+work cited,danh sách tài liệu tham khảo,/ˈwəːk sʌɪtɪd/
+won't,sẽ không,/wəʊnt/
+with,với,/wɪð/
+will,sẽ,/wɪl/
+woman,Người phụ nữ,/ˈwʊmən/
+one,một,/wʌn/
+xylophone,đàn xích đu,/ˈzaɪləˌfoʊn/
+zebra,ngựa vằn,/ˈzebrə/
+zero,số 0,/ˈzɪərəʊ/
+zoo,sở thú,/zuː/
+thoughtful,Chu đáo,/ˈθɔːtfʊl/
+thesis statement,tuyên bố luận án,/ˈθiːsis ˈsteɪtmənt/
+theory,lý thuyết,/ˈθɪəɹi/
+think,nghĩ,/θɪŋk/
+dismiss,xa thải

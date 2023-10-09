@@ -2,6 +2,7 @@ package com.example.dictionary;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class DictionaryManagement extends Dictionary {
     public DictionaryManagement() throws IOException {
@@ -9,26 +10,32 @@ public class DictionaryManagement extends Dictionary {
     }
 
     public boolean dictionaryLookup(Word word) {
-        if (dictionary.containsKey(word.getWord())) {
-            String definition = dictionary.get(word.getWord());
-            word.setDefinition(definition);
-            return true;
+        for (Word w : dictionary) {
+            if (w.getWord().equals(word.getWord())) {
+                return true;
+            }
         }
         return false;
     }
 
     public void showAllWords() {
-        for (String key : dictionary.keySet()) {
-            System.out.format("%s:\t%s\n", key, dictionary.get(key));
+        for (Word w : dictionary) {
+            if (!Objects.equals(w.getPronounce(), "")) {
+                System.out.format("%s: %s\nPhiên âm: %s\n\n",
+                        w.getWord(), w.getDefinition(), w.getPronounce());
+            } else {
+                System.out.format("%s: %s\n\n",
+                        w.getWord(), w.getDefinition());
+            }
         }
     }
 
     public ArrayList<String> dictionarySearcher(String word) {
         ArrayList<String> wordList = new ArrayList<>();
-        for (String key : dictionary.keySet()) {
-            if (key.length() < word.length()) continue;
-            if (key.startsWith(word)) {
-                wordList.add(key);
+        for (Word w : dictionary) {
+            if (w.getWord().length() < word.length()) continue;
+            if (w.getWord().startsWith(word)) {
+                wordList.add(w.getWord());
             }
         }
         return wordList;
@@ -37,6 +44,7 @@ public class DictionaryManagement extends Dictionary {
     // Them tu moi vao cuoi file
     public void addWord(Word word) throws IOException {
         if (!dictionaryLookup(word)) {
+            dictionary.add(word);
             FileWriter writer = new FileWriter(dict_path, true);
             writer.write(String.format("\n%s,%s", word.getWord(),word.getDefinition()));
             writer.close();
@@ -74,6 +82,7 @@ public class DictionaryManagement extends Dictionary {
 
         if (index != -1) {
             // Xóa dòng khỏi danh sách
+            dictionary.remove(index);
             data.remove(index);
             file.delete();
             File newFile = new File(dict_path);
