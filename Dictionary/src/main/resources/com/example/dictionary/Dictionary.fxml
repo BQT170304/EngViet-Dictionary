@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="486.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.Controller">
+   <children>
+      <Group layoutX="264.0" layoutY="73.63">
+         <children>
+            <Text fill="#31962e" layoutX="1.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ttttttttttttttttttttt" textAlignment="CENTER" wrappingWidth="350.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text fill="#8c2323" layoutX="100.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="gggggggg" textAlignment="CENTER" wrappingWidth="151.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextArea editable="false" layoutY="70.4" prefHeight="333.0" prefWidth="350.0" />
+            <ImageView fitHeight="25.0" fitWidth="21.0" layoutX="333.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/speaker.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+   </children>
+</AnchorPane>
