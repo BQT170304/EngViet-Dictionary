@@ -12,23 +12,16 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("Dictionary.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Dictionary");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 
     public static void main(String[] args) throws IOException {
         Dictionary dictionary = new Dictionary();
-        DictionaryManagement dictManagement = new DictionaryManagement();
-        dictManagement.addWord(new Word("dismiss", "xa thải"));
-        String search = "dis";
-        System.out.println(search);
-        ArrayList<String> wordList = dictManagement.dictionarySearcher(search);
-        for (String s : wordList) {
-            System.out.println(s);
-        }
-        dictManagement.showAllWords();
+        //DictionaryManagement.showAllEngWord();
         launch();
     }
 }

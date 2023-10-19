@@ -9,16 +9,31 @@ public class DictionaryManagement extends Dictionary {
 
     }
 
-    public boolean dictionaryLookup(Word word) {
+    public static void showAllEngWord() {
+        for (Word w: dictionary) {
+            System.out.println(w.getWord());
+        }
+    }
+
+    public static boolean checkWord(String word) {
         for (Word w : dictionary) {
-            if (w.getWord().equals(word.getWord())) {
+            if (w.getWord().equals(word)) {
                 return true;
             }
         }
         return false;
     }
 
-    public void showAllWords() {
+    public static String dictionaryLookup(String word) {
+        for (Word w : dictionary) {
+            if (w.getWord().equals(word)) {
+                return String.format("%s (%s)\n%s", w.getWord(), w.getPronounce() , w.getDefinition());
+            }
+        }
+        return "";
+    }
+
+    public static void showAllWords() {
         for (Word w : dictionary) {
             if (!Objects.equals(w.getPronounce(), "")) {
                 System.out.format("%s: %s\nPhiên âm: %s\n\n",
@@ -30,7 +45,7 @@ public class DictionaryManagement extends Dictionary {
         }
     }
 
-    public ArrayList<String> dictionarySearcher(String word) {
+    public static ArrayList<String> dictionarySearcher(String word) {
         ArrayList<String> wordList = new ArrayList<>();
         for (Word w : dictionary) {
             if (w.getWord().length() < word.length()) continue;
@@ -42,8 +57,8 @@ public class DictionaryManagement extends Dictionary {
     }
 
     // Them tu moi vao cuoi file
-    public void addWord(Word word) throws IOException {
-        if (!dictionaryLookup(word)) {
+    public static void addWord(Word word) throws IOException {
+        if (!checkWord(word.getWord())) {
             dictionary.add(word);
             FileWriter writer = new FileWriter(dict_path, true);
             writer.write(String.format("\n%s,%s", word.getWord(),word.getDefinition()));
@@ -53,7 +68,7 @@ public class DictionaryManagement extends Dictionary {
         }
     }
 
-    public void removeWord(Word word) throws IOException {
+    public static void removeWord(Word word) throws IOException {
         File file = new File(dict_path);
 
         // Đọc tất cả dữ liệu từ file

@@ -7,14 +7,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Dictionary {
-    protected ArrayList<Word> dictionary;
-    protected final String dict_path = "F:\\GitClone\\Baitaplon\\Dictionary\\src\\main\\resources\\com\\example\\dictionary\\dictionary.txt";
+    protected static ArrayList<Word> dictionary;
+    protected static final String dict_path = "F:\\GitClone\\Baitaplon\\Dictionary\\src\\main\\resources\\com\\example\\dictionary\\dictionary.txt";
     public Dictionary() throws IOException {
         dictionary = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(dict_path));
         String line;
         while ((line = reader.readLine()) != null) {
-            String[] parts = line.split(",");
+            String[] parts = line.split("\\|");
             if (parts.length == 3)
                 dictionary.add(new Word(parts[0],parts[1],parts[2]));
             else if (parts.length == 2)

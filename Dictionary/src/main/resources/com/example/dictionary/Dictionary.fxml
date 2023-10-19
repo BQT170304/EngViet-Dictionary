@@ -15,7 +15,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="486.0" prefWidth="487.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="481.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.Controller">
     <children>
         <Group fx:id="groupWord" layoutX="264.0" layoutY="73.626953125">
             <children>
@@ -166,18 +166,29 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <TextField fx:id="SubmitS" layoutX="14.0" layoutY="73.0" prefHeight="25.0" prefWidth="182.0">
+        <TextField fx:id="TypeArea" layoutX="14.0" layoutY="73.0" onKeyReleased="#showWords" prefHeight="30.0" prefWidth="450.0">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
             <cursor>
                 <Cursor fx:constant="TEXT" />
-            </cursor></TextField>
-        <Button layoutX="197.0" layoutY="73.0" mnemonicParsing="false" opacity="0.75" prefHeight="25.0" prefWidth="55.0" text="Submit" textFill="#242625">
+            </cursor>
+        </TextField>
+        <Button fx:id="Search" layoutX="422.0" layoutY="73.0" mnemonicParsing="false" opacity="0.75" prefHeight="30.0" prefWidth="41.0" textFill="#242625">
             <font>
                 <Font name="Arial" size="12.0" />
             </font>
             <cursor>
                 <Cursor fx:constant="HAND" />
-            </cursor></Button>
-        <ListView fx:id="ListWord" layoutX="14.0" layoutY="119.0" opacity="0.75" prefHeight="359.0" prefWidth="236.0">
+            </cursor>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/seach_icon.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+        <ListView fx:id="ListWord" layoutX="14.0" layoutY="119.0" onMousePressed="#clicked" opacity="0.75" prefHeight="226.0" prefWidth="450.0">
             <contextMenu>
                 <ContextMenu>
                     <items>
@@ -200,5 +211,16 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
+      <TextArea fx:id="meaningArea" layoutX="16.0" layoutY="361.0" onMouseClicked="#clicked" prefHeight="111.0" prefWidth="450.0">
+        <font>
+            <Font size="16.0" />
+        </font>
+      </TextArea>
+      <Button layoutX="425.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#clickSoundBtn" opacity="0.33" prefHeight="30.0" prefWidth="42.0" />
+      <ImageView fitHeight="21.0" fitWidth="21.0" layoutX="436.0" layoutY="366.0" onMouseClicked="#clickSoundBtn" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/speaker.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>
