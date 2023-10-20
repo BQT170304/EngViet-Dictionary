@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class DictionaryManagement extends Dictionary {
-    private final String url =
-            "https://script.google.com/macros/s/AKfycbz_g0cKMWhvQsyk4n83kwywXZRVauZ-Pjor6LHy9ZbsGM_Szia83P4DMySl34HevphM9w/exec";
+    private final String url = "https://script.google.com/macros/s/AKfycbz_g0cKMWhvQsyk4n83kwywXZRVauZ-Pjor6LHy9ZbsGM_Szia83P4DMySl34HevphM9w/exec";
+
     public DictionaryManagement() throws IOException {
 
     }

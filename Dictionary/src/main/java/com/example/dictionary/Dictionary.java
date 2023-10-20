@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 public class Dictionary {
     protected static ArrayList<Word> dictionary;
-    protected static final String dict_path = "F:\\GitClone\\Baitaplon\\Dictionary\\src\\main\\resources\\com\\example\\dictionary\\dictionary.txt";
+    protected static final String dict_path = "D:\\duma\\Baitaplon\\Dictionary\\src\\main\\resources\\com\\example\\dictionary\\dictionary.txt";
     public Dictionary() throws IOException {
         dictionary = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(dict_path));

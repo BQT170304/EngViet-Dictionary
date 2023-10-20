@@ -144,21 +144,21 @@
                 <Image url="@image/background.jpg" />
             </image>
         </ImageView>
-        <Button layoutX="7.0" layoutY="5.0" mnemonicParsing="false" opacity="0.87" prefHeight="43.0" prefWidth="140.0" text="Tra từ" textFill="#221616" AnchorPane.topAnchor="5.0">
+        <Button layoutX="14.0" layoutY="5.0" mnemonicParsing="false" opacity="0.87" prefHeight="43.0" prefWidth="151.0" text="Tra từ" textFill="#221616" AnchorPane.topAnchor="5.0">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor></Button>
-        <Button fx:id="TransText" focusTraversable="false" layoutX="313.0" layoutY="5.0" mnemonicParsing="false" opacity="0.87" prefHeight="43.0" prefWidth="151.0" text="Dịch đoạn văn" textFill="#362b2b">
+        <Button fx:id="TransText" focusTraversable="false" layoutX="316.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchToTranslate" opacity="0.87" prefHeight="43.0" prefWidth="150.0" text="Dịch đoạn văn" textFill="#362b2b">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor></Button>
-        <Button focusTraversable="false" layoutX="155.0" layoutY="5.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="151.0" text="Thêm dữ liệu">
+        <Button focusTraversable="false" layoutX="166.0" layoutY="5.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="149.0" text="Thêm dữ liệu">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
@@ -203,7 +203,7 @@
             </cursor>
         </ListView>
         <Label fx:id="SearchLabel" layoutX="14.0" layoutY="102.0" />
-      <Button fx:id="TransText1" focusTraversable="false" layoutX="467.0" layoutY="5.0" mnemonicParsing="false" opacity="0.87" prefHeight="43.0" prefWidth="151.0" text="Minigame" textFill="#362b2b">
+      <Button fx:id="TransText1" focusTraversable="false" layoutX="467.0" layoutY="5.0" mnemonicParsing="false" opacity="0.87" prefHeight="43.0" prefWidth="150.0" text="Minigame" textFill="#362b2b">
          <font>
             <Font name="Arial Bold" size="14.0" />
          </font>
