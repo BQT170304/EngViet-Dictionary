@@ -1,10 +1,15 @@
 package com.example.dictionary;
 
 import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Objects;
 
 public class DictionaryManagement extends Dictionary {
+    private final String url =
+            "https://script.google.com/macros/s/AKfycbz_g0cKMWhvQsyk4n83kwywXZRVauZ-Pjor6LHy9ZbsGM_Szia83P4DMySl34HevphM9w/exec";
     public DictionaryManagement() throws IOException {
 
     }
@@ -109,5 +114,20 @@ public class DictionaryManagement extends Dictionary {
             System.out.println("Đã xóa từ khỏi từ điển!");
             writer.close();
         } else System.out.println("Khong tim thay");
+    }
+
+    public String translate(String langFrom, String langTo, String text) throws IOException {
+        String urlStr = this.url + "?q=" + URLEncoder.encode(text, "UTF-8") + "&target=" + langTo + "&source=" + langFrom;
+        URL url = new URL(urlStr);
+        StringBuilder response = new StringBuilder();
+        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+        con.setRequestProperty("User-Agent", "Mozilla/5.0");
+        BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+        String inputLine;
+        while ((inputLine = in.readLine()) != null) {
+            response.append(inputLine);
+        }
+        in.close();
+        return response.toString();
     }
 }
