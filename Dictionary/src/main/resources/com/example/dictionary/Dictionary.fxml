@@ -166,7 +166,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <TextField fx:id="TypeArea" layoutX="14.0" layoutY="73.0" onKeyReleased="#showWords" prefHeight="30.0" prefWidth="450.0">
+        <TextField fx:id="TypeArea" layoutX="14.0" layoutY="73.0" onKeyPressed="#pressEnterToSearch" onKeyReleased="#showWords" prefHeight="30.0" prefWidth="450.0">
             <font>
                 <Font name="System Bold" size="14.0" />
             </font>
@@ -174,7 +174,7 @@
                 <Cursor fx:constant="TEXT" />
             </cursor>
         </TextField>
-        <Button fx:id="Search" layoutX="422.0" layoutY="73.0" mnemonicParsing="false" opacity="0.75" prefHeight="30.0" prefWidth="41.0" textFill="#242625">
+        <Button fx:id="Search" layoutX="422.0" layoutY="73.0" mnemonicParsing="false" onMouseClicked="#clickSearchBtn" opacity="0.75" prefHeight="30.0" prefWidth="41.0" textFill="#242625">
             <font>
                 <Font name="Arial" size="12.0" />
             </font>
@@ -182,7 +182,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
          <graphic>
-            <ImageView fitHeight="20.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="20.0" fitWidth="24.0" onMouseClicked="#clickSearchBtn" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@image/seach_icon.png" />
                </image>

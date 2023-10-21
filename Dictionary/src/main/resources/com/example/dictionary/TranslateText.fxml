@@ -64,6 +64,18 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
+      <Button layoutX="532.0" layoutY="89.0" mnemonicParsing="false" onMouseClicked="#clickSoundBtn1" opacity="0.1" prefHeight="34.0" prefWidth="34.0" />
+      <Button layoutX="534.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#clickSoundBtn2" opacity="0.1" prefHeight="34.0" prefWidth="34.0" />
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="539.0" layoutY="310.0" onMouseClicked="#clickSoundBtn2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/speaker.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="539.0" layoutY="94.0" onMouseClicked="#clickSoundBtn1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/speaker.png" />
+         </image>
+      </ImageView>
 
     </children>
 </AnchorPane>

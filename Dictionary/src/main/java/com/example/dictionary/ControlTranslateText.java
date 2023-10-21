@@ -1,5 +1,7 @@
 package com.example.dictionary;
 
+import com.sun.speech.freetts.Voice;
+import com.sun.speech.freetts.VoiceManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -16,7 +18,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class ControlTranslateText {
-    private DictionaryManagement Dicmana = new DictionaryManagement();
     private String from = "vi";
     private String to = "en";
     @FXML
@@ -47,7 +48,7 @@ public class ControlTranslateText {
         to = "vi";
         String TextType = Text.getText();
         this.translating.toFront();
-        String translatedText = Dicmana.translate(from, to, TextType);
+        String translatedText = DictionaryManagement.translate(from, to, TextType);
         this.TextTrans.setText(translatedText);
         this.translating.toBack();
     }
@@ -56,16 +57,41 @@ public class ControlTranslateText {
         to = "en";
         String TextType = Text.getText();
         this.translating.toFront();
-        String translatedText = Dicmana.translate(from, to, TextType);
+        String translatedText = DictionaryManagement.translate(from, to, TextType);
         this.TextTrans.setText(translatedText);
         this.translating.toBack();
     }
 
+<<<<<<< Updated upstream
     public void switchToDictionary(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Dictionary.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+=======
+    public void clickSoundBtn1(MouseEvent event) {
+        System.setProperty("freetts.voices" , "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
+        Voice voice = VoiceManager.getInstance().getVoice("kevin16");
+        if (voice != null) {
+            voice.allocate();
+            String s = Text.getText();
+            voice.speak(s);
+        } else {
+            throw new IllegalStateException("Cannot find voice: kevin16");
+        }
+    }
+
+    public void clickSoundBtn2(MouseEvent event) {
+        System.setProperty("freetts.voices" , "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
+        Voice voice = VoiceManager.getInstance().getVoice("kevin16");
+        if (voice != null) {
+            voice.allocate();
+            String s = TextTrans.getText();
+            voice.speak(s);
+        } else {
+            throw new IllegalStateException("Cannot find voice: kevin16");
+        }
+>>>>>>> Stashed changes
     }
 }

@@ -387,7 +387,7 @@ result|kết quả|/rɪˈzʌlt/
 results section|phần kết quả|/rɪˈzʌlts ˈsekʃən/
 review|đánh giá|/rɪˈvjuː/
 room|phòng|/ruːm/
-sabotage|phá hoại, phá hoại|/ˈsæbəˈtaːʒ/
+sabotage|phá hoại|/ˈsæbəˈtaːʒ/
 sad|Buồn|/sæd/
 salubrious|lành mạnh, tốt cho sức khỏe|/səˈluːbriəs/
 sanctimonious|đạo đức giả, giả tạo|/ˌsænktəˈmɪniəs/
@@ -436,15 +436,15 @@ strong|Mạnh mẽ|/strɒŋ/
 sublime|cao quý, tuyệt vời|/sʌˈblaɪm/
 succinct|ngắn gọn, súc tích|/ˈsʌk.sɪnt/
 suffrage|quyền bầu cử|/ˈsʌf.rɪdʒ/
-sullen|lầm lì, lầm lì|/ˈsʌl.ən/
+sullen|lầm lì|/ˈsʌl.ən/
 sun|mặt trời|/sʌn/
 supercilious|kiêu ngạo, tự phụ|/ˌsuːpəˈsɪlɪəs/
 superfluous|thừa thãi, dư thừa|/ˌsuːpəˈfluːəs/
-supernatural|siêu nhiên, siêu nhiên|/ˌsuːpəˈnætʃərəl/
+supernatural|siêu nhiên|/ˌsuːpəˈnætʃərəl/
 suppress|đàn áp, dập tắt|/səˈpres/
-surreptitious|lén lút, lén lút|/ˌsuːpəˈrep.tɪʃəs/
+surreptitious|lén lút|/ˌsuːpəˈrep.tɪʃəs/
 suspicion|nghi ngờ|/səˈspɪʃ.ən/
-suspicious|đáng ngờ, đáng ngờ|/səˈspɪʃ.əs/
+suspicious|đáng ngờ|/səˈspɪʃ.əs/
 swagger|vênh váo, kiêu ngạo|/ˈswɒɡə/
 sweltering|oi bức, ngột ngạt|/ˈsweltərɪŋ/
 syllabus|chương trình giảng dạy|/ˈsɪləbəs/

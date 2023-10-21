@@ -6,6 +6,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.media.MediaPlayer;
@@ -14,7 +15,10 @@ import com.sun.speech.freetts.VoiceManager;
 
 import java.io.IOException;
 import java.net.URL;
+import java.security.Key;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 import javafx.fxml.FXMLLoader;
@@ -57,19 +61,39 @@ public class Controller extends Dictionary implements Initializable {
     }
 
     // click chuột vào từ tiếng anh để hiện ra nghĩa
-    public void clicked (MouseEvent e){
-        try
-        {
+    public void clicked(MouseEvent event){
+        try {
             TypeArea.setText(ListWord.getSelectionModel().getSelectedItem());
             meaningArea.setText(DictionaryManagement.dictionaryLookup(ListWord.getSelectionModel().getSelectedItem()));
-        }catch (NullPointerException exception)
-        {
+        } catch (NullPointerException exception) {
             System.out.println("There is nothing");
         }
     }
 
     @FXML
-    private void clickSoundBtn(MouseEvent e) {
+    public void clickSearchBtn(MouseEvent event) {
+        String input = TypeArea.getText();
+        List<String> wordList = ListWord.getItems().stream().toList();
+        if (wordList.size()==0) return;
+        if (input.equals(wordList.get(0))) {
+            meaningArea.setText(DictionaryManagement.dictionaryLookup(wordList.get(0)));
+        }
+    }
+
+    @FXML
+    public void pressEnterToSearch(KeyEvent event) {
+        if (event.getCode()== KeyCode.ENTER) {
+            String input = TypeArea.getText();
+            List<String> wordList = ListWord.getItems().stream().toList();
+            if (wordList.size()==0) return;
+            if (input.equals(wordList.get(0))) {
+                meaningArea.setText(DictionaryManagement.dictionaryLookup(wordList.get(0)));
+            }
+        }
+    }
+
+    @FXML
+    public void clickSoundBtn(MouseEvent event) {
         System.setProperty("freetts.voices" , "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
         Voice voice = VoiceManager.getInstance().getVoice("kevin16");
         if (voice != null) {

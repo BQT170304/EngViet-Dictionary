@@ -8,8 +8,13 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class DictionaryManagement extends Dictionary {
+<<<<<<< Updated upstream
     private final String url = "https://script.google.com/macros/s/AKfycbz_g0cKMWhvQsyk4n83kwywXZRVauZ-Pjor6LHy9ZbsGM_Szia83P4DMySl34HevphM9w/exec";
 
+=======
+    private static final String url =
+            "https://script.google.com/macros/s/AKfycbz_g0cKMWhvQsyk4n83kwywXZRVauZ-Pjor6LHy9ZbsGM_Szia83P4DMySl34HevphM9w/exec";
+>>>>>>> Stashed changes
     public DictionaryManagement() throws IOException {
 
     }
@@ -116,8 +121,8 @@ public class DictionaryManagement extends Dictionary {
         } else System.out.println("Khong tim thay");
     }
 
-    public String translate(String langFrom, String langTo, String text) throws IOException {
-        String urlStr = this.url + "?q=" + URLEncoder.encode(text, "UTF-8") + "&target=" + langTo + "&source=" + langFrom;
+    public static String translate(String langFrom, String langTo, String text) throws IOException {
+        String urlStr = url + "?q=" + URLEncoder.encode(text, "UTF-8") + "&target=" + langTo + "&source=" + langFrom;
         URL url = new URL(urlStr);
         StringBuilder response = new StringBuilder();
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
