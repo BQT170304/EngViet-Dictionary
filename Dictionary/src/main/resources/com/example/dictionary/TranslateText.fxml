@@ -31,7 +31,7 @@
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor></Button>
-        <Button fx:id="Add2" focusTraversable="false" layoutX="238.0" layoutY="5.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="151.0" text="Minigame">
+        <Button fx:id="Add2" focusTraversable="false" layoutX="238.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchToMinigame" prefHeight="43.0" prefWidth="151.0" text="Minigame">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>

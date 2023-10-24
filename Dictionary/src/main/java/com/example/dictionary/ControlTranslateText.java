@@ -62,14 +62,22 @@ public class ControlTranslateText {
         this.translating.toBack();
     }
 
-<<<<<<< Updated upstream
     public void switchToDictionary(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Dictionary.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void switchToMinigame(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("Minigame.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
-=======
+    }
+
     public void clickSoundBtn1(MouseEvent event) {
         System.setProperty("freetts.voices" , "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
         Voice voice = VoiceManager.getInstance().getVoice("kevin16");
@@ -92,6 +100,5 @@ public class ControlTranslateText {
         } else {
             throw new IllegalStateException("Cannot find voice: kevin16");
         }
->>>>>>> Stashed changes
     }
 }

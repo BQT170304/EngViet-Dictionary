@@ -119,5 +119,12 @@ public class Controller extends Dictionary implements Initializable {
         stage.show();
     }
 
+    public void switchToMinigame(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("Minigame.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 
 }
