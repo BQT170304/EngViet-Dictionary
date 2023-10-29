@@ -1,6 +1,5 @@
 package com.example.dictionary;
 
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -15,10 +14,7 @@ import com.sun.speech.freetts.VoiceManager;
 
 import java.io.IOException;
 import java.net.URL;
-import java.security.Key;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.ResourceBundle;
 
 import javafx.fxml.FXMLLoader;
@@ -37,10 +33,6 @@ public class Controller extends Dictionary implements Initializable {
     @FXML
     private Button Search;
 
-    private Stage stage;
-    private Scene scene;
-    private Parent root;
-
     public Controller() throws IOException {
     }
 
@@ -52,8 +44,7 @@ public class Controller extends Dictionary implements Initializable {
                 ListWord.setItems(null);
                 return;
             }
-            ArrayList<String> wordList = DictionaryManagement.dictionarySearcher(look);
-            ObservableList<String> input = FXCollections.observableArrayList(wordList);
+            ObservableList<String> input = DictionaryManagement.trieLookup(look);
             ListWord.setItems(input);
         } catch (Exception e) {
             System.out.println("Nhap khong hop le");
@@ -82,7 +73,7 @@ public class Controller extends Dictionary implements Initializable {
 
     @FXML
     public void pressEnterToSearch(KeyEvent event) {
-        if (event.getCode()== KeyCode.ENTER) {
+        if (event.getCode() == KeyCode.ENTER) {
             String input = TypeArea.getText();
             List<String> wordList = ListWord.getItems().stream().toList();
             if (wordList.size()==0) return;
@@ -112,17 +103,17 @@ public class Controller extends Dictionary implements Initializable {
 
 
     public void switchToTranslate(ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("TranslateText.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
+        Parent root = FXMLLoader.load(getClass().getResource("TranslateText.fxml"));
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
 
     public void switchToMinigame(ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("Minigame.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
+        Parent root = FXMLLoader.load(getClass().getResource("Minigame.fxml"));
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }

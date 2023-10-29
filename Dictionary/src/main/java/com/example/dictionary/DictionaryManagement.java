@@ -1,120 +1,112 @@
 package com.example.dictionary;
 
+import javafx.collections.*;
+
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.Objects;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.*;
 
 public class DictionaryManagement extends Dictionary {
-
     private static final String url =
             "https://script.google.com/macros/s/AKfycbz_g0cKMWhvQsyk4n83kwywXZRVauZ-Pjor6LHy9ZbsGM_Szia83P4DMySl34HevphM9w/exec";
+
     public DictionaryManagement() throws IOException {
 
     }
 
-    public static void showAllEngWord() {
-        for (Word w: dictionary) {
+    public static void showAllWords() {
+        for (Word w : dictionary) {
             System.out.println(w.getWord());
         }
     }
 
-    public static boolean checkWord(String word) {
-        for (Word w : dictionary) {
-            if (w.getWord().equals(word)) {
-                return true;
+    public static int checkWord(String word) {
+        for (int i = 0; i < dictionary.size(); i++) {
+            String w = dictionary.get(i).getWord();
+            if (w.equals(word)) {
+                return i;
             }
         }
-        return false;
+        return -1;
     }
 
     public static String dictionaryLookup(String word) {
-        for (Word w : dictionary) {
-            if (w.getWord().equals(word)) {
-                return String.format("%s (%s)\n%s", w.getWord(), w.getPronounce() , w.getDefinition());
+        ConnectJDBC connectJDBC = new ConnectJDBC();
+        Connection conn = connectJDBC.connect();
+
+        String query = "SELECT * FROM tbl_edict WHERE word = '" + word + "';";
+
+        Statement stm = null;
+        try {
+            stm = conn.createStatement();
+            ResultSet rs = stm.executeQuery(query);
+            String result = "";
+            while (rs.next()) {
+                String detail = rs.getString("detail");
+                detail = detail.replaceAll("<C><F><I><N><Q>", "");
+                detail = detail.replaceAll("</Q></N></I></F></C>", "");
+                String[] parts = detail.split("<br />");
+                parts[0] = parts[0].replaceAll("@", "");
+                for (String part : parts) {
+                    if (part.contains("@")) {
+                        result += part.replace("@", "") + '\n';
+                    } else if (part.contains("*")) {
+                        result += part.substring(1).trim() + '\n';
+                    } else if (part.contains("=")) {
+                        result += part.replace("=", "").replace("+", ":");
+                        result += '\n';
+                    } else result += part + '\n';
+                }
+                break;
             }
+            conn.close();
+            return result;
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
         return "";
     }
 
-    public static void showAllWords() {
-        for (Word w : dictionary) {
-            if (!Objects.equals(w.getPronounce(), "")) {
-                System.out.format("%s: %s\nPhiên âm: %s\n\n",
-                        w.getWord(), w.getDefinition(), w.getPronounce());
-            } else {
-                System.out.format("%s: %s\n\n",
-                        w.getWord(), w.getDefinition());
+    public static ObservableList<String> trieLookup(String key) {
+        ObservableList<String> list = FXCollections.observableArrayList();
+        try {
+            List<String> results = trie.findWords(key);
+            if (results != null) {
+                int length = Math.min(results.size(), 15);
+                for (int i = 0; i < length; i++) {
+                    list.add(results.get(i));
+                }
             }
+        } catch (Exception e) {
+            System.out.println("Something went wrong: " + e);
         }
+        return list;
     }
 
-    public static ArrayList<String> dictionarySearcher(String word) {
-        ArrayList<String> wordList = new ArrayList<>();
-        for (Word w : dictionary) {
-            if (w.getWord().length() < word.length()) continue;
-            if (w.getWord().startsWith(word)) {
-                wordList.add(w.getWord());
-            }
-        }
-        return wordList;
-    }
-
-    // Them tu moi vao cuoi file
-    public static void addWord(Word word) throws IOException {
-        if (!checkWord(word.getWord())) {
-            dictionary.add(word);
-            FileWriter writer = new FileWriter(dict_path, true);
-            writer.write(String.format("\n%s,%s", word.getWord(),word.getDefinition()));
-            writer.close();
+    public static void addWord(String word) throws IOException {
+        if (checkWord(word) != -1) {
+            dictionary.add(new Word(word));
+            trie.insert(word);
         } else {
             System.out.println("Đã có trong từ điển!");
         }
     }
 
-    public static void removeWord(Word word) throws IOException {
-        File file = new File(dict_path);
-
-        // Đọc tất cả dữ liệu từ file
-        BufferedReader reader = new BufferedReader(new FileReader(file));
-        ArrayList<String> data = new ArrayList<>();
-        String line;
-        while ((line = reader.readLine()) != null) {
-            data.add(line);
-        }
-        reader.close();
-        // Tìm dòng cần xóa
-        int index = -1;
-        String target = String.format("%s,%s", word.getWord(),word.getDefinition());
-        System.out.println(target);
-        System.out.println(data.get(441));
-        System.out.println(target.equals(data.get(441)));
-        for (int i = 0; i < data.size(); i++) {
-            if (data.get(i).length() < word.getWord().length()) continue;
-            if (word.getWord().equals(data.get(i).substring(0,word.getWord().length()))
-                || data.get(i).equals(target)) {
-                System.out.println("Tim thay");
-                index = i;
-                break;
-            }
-        }
-
+    public static void removeWord(String word) throws IOException {
+        int index = checkWord(word);
         if (index != -1) {
-            // Xóa dòng khỏi danh sách
             dictionary.remove(index);
-            data.remove(index);
-            file.delete();
-            File newFile = new File(dict_path);
-            // Ghi danh sách đã sửa đổi vào file
-            BufferedWriter writer = new BufferedWriter(new FileWriter(newFile, true));
-            for (String line1 : data) {
-                writer.write(line1 + "\n");
+            trie = new Trie();
+            for (Word w : dictionary) {
+                trie.insert(w.getWord());
             }
-            System.out.println("Đã xóa từ khỏi từ điển!");
-            writer.close();
-        } else System.out.println("Khong tim thay");
+        }
     }
 
     public static String translate(String langFrom, String langTo, String text) throws IOException {

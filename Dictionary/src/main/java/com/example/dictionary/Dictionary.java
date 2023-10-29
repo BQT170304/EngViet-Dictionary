@@ -1,25 +1,36 @@
 package com.example.dictionary;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.List;
 
-public class Dictionary {
-    protected static ArrayList<Word> dictionary;
-    protected static final String dict_path = "D:\\duma\\Baitaplon\\Dictionary\\src\\main\\resources\\com\\example\\dictionary\\dictionary.txt";
-    public Dictionary() throws IOException {
+public class Dictionary extends Trie {
+    protected static Trie trie;
+    protected static List<Word> dictionary;
+    public Dictionary() {
         dictionary = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(dict_path));
-        String line;
-        while ((line = reader.readLine()) != null) {
-            String[] parts = line.split("\\|");
-            if (parts.length == 3)
-                dictionary.add(new Word(parts[0],parts[1],parts[2]));
-            else if (parts.length == 2)
-                dictionary.add(new Word(parts[0],parts[1]));
+        trie = new Trie();
+        ConnectJDBC connectJDBC = new ConnectJDBC();
+        Connection conn = connectJDBC.connect();
+
+        String query = "SELECT word FROM tbl_edict;";
+
+        Statement stm = null;
+        try {
+            stm = conn.createStatement();
+
+            ResultSet rs = stm.executeQuery(query);
+            while (rs.next()) {
+                String word = rs.getString("word");
+                dictionary.add(new Word(word));
+                trie.insert(word);
+            }
+            conn.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
-        reader.close();
     }
 }
