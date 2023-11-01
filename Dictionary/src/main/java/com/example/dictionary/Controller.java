@@ -13,9 +13,14 @@ import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.ResourceBundle;
+import javazoom.jl.player.Player;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -83,16 +88,33 @@ public class Controller extends Dictionary implements Initializable {
         }
     }
 
+//    @FXML
+//    public void clickSoundBtn(MouseEvent event) {
+//        System.setProperty("freetts.voices" , "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
+//        Voice voice = VoiceManager.getInstance().getVoice("kevin16");
+//        if (voice != null) {
+//            voice.allocate();
+//            String[] parts = meaningArea.getText().split(" ", 3);
+//            voice.speak(parts[0]);
+//        } else {
+//            throw new IllegalStateException("Cannot find voice: kevin16");
+//        }
+//    }
+
     @FXML
     public void clickSoundBtn(MouseEvent event) {
-        System.setProperty("freetts.voices" , "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
-        Voice voice = VoiceManager.getInstance().getVoice("kevin16");
-        if (voice != null) {
-            voice.allocate();
-            String[] parts = meaningArea.getText().split(" ", 3);
-            voice.speak(parts[0]);
-        } else {
-            throw new IllegalStateException("Cannot find voice: kevin16");
+        try {
+            String urlStr = "https://translate.google.com/translate_tts?ie=UTF-8&tl="
+                    + "en"
+                    + "&client=tw-ob&q="
+                    + URLEncoder.encode(meaningArea.getText().split(" ")[0], StandardCharsets.UTF_8);
+            URL url = new URL(urlStr);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            InputStream audio = connection.getInputStream();
+            new Player(audio).play();
+            connection.disconnect();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 

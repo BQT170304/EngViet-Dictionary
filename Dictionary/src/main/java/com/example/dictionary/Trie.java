@@ -54,7 +54,7 @@ public class Trie {
     }
 
     protected List<String> allPrefixes() {
-        List<String> results = new ArrayList<String>();
+        List<String> results = new ArrayList<>();
         if (this.isEnd) {
             results.add(this.content);
         }

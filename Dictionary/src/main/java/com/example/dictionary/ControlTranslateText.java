@@ -10,12 +10,18 @@ import javafx.scene.input.MouseEvent;
 import javafx.event.ActionEvent;
 import javax.speech.EngineException;
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javazoom.jl.player.Player;
 
 public class ControlTranslateText {
     private String from = "vi";
@@ -79,26 +85,34 @@ public class ControlTranslateText {
     }
 
     public void clickSoundBtn1(MouseEvent event) {
-        System.setProperty("freetts.voices" , "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
-        Voice voice = VoiceManager.getInstance().getVoice("kevin16");
-        if (voice != null) {
-            voice.allocate();
-            String s = Text.getText();
-            voice.speak(s);
-        } else {
-            throw new IllegalStateException("Cannot find voice: kevin16");
+        try {
+            String urlStr = "https://translate.google.com/translate_tts?ie=UTF-8&tl="
+                    + "en"
+                    + "&client=tw-ob&q="
+                    + URLEncoder.encode(Text.getText(), StandardCharsets.UTF_8);
+            URL url = new URL(urlStr);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            InputStream audio = connection.getInputStream();
+            new Player(audio).play();
+            connection.disconnect();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
     public void clickSoundBtn2(MouseEvent event) {
-        System.setProperty("freetts.voices" , "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
-        Voice voice = VoiceManager.getInstance().getVoice("kevin16");
-        if (voice != null) {
-            voice.allocate();
-            String s = TextTrans.getText();
-            voice.speak(s);
-        } else {
-            throw new IllegalStateException("Cannot find voice: kevin16");
+        try {
+            String urlStr = "https://translate.google.com/translate_tts?ie=UTF-8&tl="
+                    + "vi"
+                    + "&client=tw-ob&q="
+                    + URLEncoder.encode(TextTrans.getText(), StandardCharsets.UTF_8);
+            URL url = new URL(urlStr);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            InputStream audio = connection.getInputStream();
+            new Player(audio).play();
+            connection.disconnect();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
