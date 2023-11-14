@@ -76,6 +76,14 @@ public class ControlTranslateText {
         stage.show();
     }
 
+    public void switchToAddDelete(MouseEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("ModifyWords.fxml"));
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
     public void switchToMinigame(ActionEvent event) throws IOException {
         root = FXMLLoader.load(getClass().getResource("Minigame.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();

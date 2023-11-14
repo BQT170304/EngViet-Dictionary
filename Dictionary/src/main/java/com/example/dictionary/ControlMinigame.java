@@ -34,6 +34,14 @@ public class ControlMinigame {
         stage.show();
     }
 
+    public void switchToAddDelete(MouseEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("ModifyWords.fxml"));
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
     public void switchToTranslate(ActionEvent event) throws IOException {
         root = FXMLLoader.load(getClass().getResource("TranslateText.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();

@@ -9,8 +9,6 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.media.MediaPlayer;
-import com.sun.speech.freetts.Voice;
-import com.sun.speech.freetts.VoiceManager;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -27,7 +25,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-public class Controller extends Dictionary implements Initializable {
+public class Controller implements Initializable {
     public MediaPlayer mediaPlayer;
     @FXML
     private TextField TypeArea;
@@ -88,19 +86,6 @@ public class Controller extends Dictionary implements Initializable {
         }
     }
 
-//    @FXML
-//    public void clickSoundBtn(MouseEvent event) {
-//        System.setProperty("freetts.voices" , "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
-//        Voice voice = VoiceManager.getInstance().getVoice("kevin16");
-//        if (voice != null) {
-//            voice.allocate();
-//            String[] parts = meaningArea.getText().split(" ", 3);
-//            voice.speak(parts[0]);
-//        } else {
-//            throw new IllegalStateException("Cannot find voice: kevin16");
-//        }
-//    }
-
     @FXML
     public void clickSoundBtn(MouseEvent event) {
         try {
@@ -123,6 +108,13 @@ public class Controller extends Dictionary implements Initializable {
 
     }
 
+    public void switchToAddDelete(MouseEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("ModifyWords.fxml"));
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 
     public void switchToTranslate(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("TranslateText.fxml"));

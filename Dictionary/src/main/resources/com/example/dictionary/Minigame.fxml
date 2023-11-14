@@ -7,14 +7,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.ControlMinigame">
+<AnchorPane onMouseClicked="#switchToAddDelete" prefHeight="551.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.ControlMinigame">
    <children>
-      <ImageView fitHeight="486.0" fitWidth="626.0">
+      <ImageView fitHeight="551.0" fitWidth="632.0">
          <image>
             <Image url="@image/background.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="Search" focusTraversable="false" layoutX="76.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchToDictionary" opacity="0.87" prefHeight="43.0" prefWidth="140.0" text="Tra từ" textFill="#221616" AnchorPane.topAnchor="5.0">
+      <Button fx:id="Search" focusTraversable="false" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchToDictionary" opacity="0.5" prefHeight="43.0" prefWidth="150.0" text="Tra từ" textFill="#221616" AnchorPane.topAnchor="15.0">
          <font>
             <Font name="Arial Bold" size="14.0" />
          </font>
@@ -22,7 +22,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="TranslateText" layoutX="409.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchToTranslate" opacity="0.87" prefHeight="43.0" prefWidth="151.0" text="Dịch đoạn văn" textFill="#362b2b">
+      <Button fx:id="TranslateText" focusTraversable="false" layoutX="316.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchToTranslate" opacity="0.5" prefHeight="43.0" prefWidth="151.0" text="Dịch đoạn văn" textFill="#362b2b">
          <font>
             <Font name="Arial Bold" size="14.0" />
          </font>
@@ -30,10 +30,21 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button focusTraversable="false" layoutX="238.0" layoutY="5.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="151.0" text="Minigame">
+      <Button focusTraversable="false" layoutX="467.0" layoutY="15.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="151.0" text="Minigame">
          <font>
             <Font name="Arial Bold" size="14.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button focusTraversable="false" layoutX="165.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#switchToAddDelete" opacity="0.5" prefHeight="43.0" prefWidth="150.0" text="Thêm/Xóa từ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
    </children>
 </AnchorPane>

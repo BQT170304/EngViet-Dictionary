@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Dictionary extends Trie {
-    protected static Trie trie;
-    protected static List<Word> dictionary;
+    public static Trie trie;
+    public static List<Word> dictionary;
     public Dictionary() {
         dictionary = new ArrayList<>();
         trie = new Trie();

@@ -15,8 +15,9 @@ import java.util.*;
 public class DictionaryManagement extends Dictionary {
     private static final String url =
             "https://script.google.com/macros/s/AKfycbz_g0cKMWhvQsyk4n83kwywXZRVauZ-Pjor6LHy9ZbsGM_Szia83P4DMySl34HevphM9w/exec";
+    public static List<Word> addedWord = new ArrayList<>();
 
-    public DictionaryManagement() throws IOException {
+    public DictionaryManagement() {
 
     }
 
@@ -66,6 +67,13 @@ public class DictionaryManagement extends Dictionary {
                 break;
             }
             conn.close();
+            if (result.equals("")) {
+                for (Word w:addedWord) {
+                    if (word.equals(w.getWord())) {
+                        return w.getDefinition();
+                    }
+                }
+            }
             return result;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -89,16 +97,17 @@ public class DictionaryManagement extends Dictionary {
         return list;
     }
 
-    public static void addWord(String word) throws IOException {
-        if (checkWord(word) != -1) {
-            dictionary.add(new Word(word));
-            trie.insert(word);
-        } else {
-            System.out.println("Đã có trong từ điển!");
+    public static void addWord(String word, String definition) {
+        dictionary.add(new Word(word, definition));
+        addedWord.add(new Word(word, definition));
+        trie = new Trie();
+        for (Word w : dictionary) {
+            trie.insert(w.getWord());
         }
+        System.out.println("Da them vao tu dien");
     }
 
-    public static void removeWord(String word) throws IOException {
+    public static void removeWord(String word) {
         int index = checkWord(word);
         if (index != -1) {
             dictionary.remove(index);

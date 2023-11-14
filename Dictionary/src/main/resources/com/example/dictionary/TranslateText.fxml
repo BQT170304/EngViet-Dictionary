@@ -9,46 +9,50 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.ControlTranslateText">
+<AnchorPane prefHeight="551.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.ControlTranslateText">
     <children>
       <Label fx:id="translating" layoutX="248.0" layoutY="256.0" text="Đang dịch, vui lòng đợi..." />
-      <ImageView fitHeight="486.0" fitWidth="626.0">
+      <ImageView fitHeight="551.0" fitWidth="632.0">
          <image>
             <Image url="@image/background.jpg" />
          </image>
       </ImageView>
-        <Button fx:id="Search" focusTraversable="false" layoutX="76.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchToDictionary" opacity="0.87" prefHeight="43.0" prefWidth="140.0" text="Tra từ" textFill="#221616" AnchorPane.topAnchor="5.0">
+        <Button fx:id="Search" focusTraversable="false" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchToDictionary" opacity="0.5" prefHeight="43.0" prefWidth="150.0" text="Tra từ" textFill="#221616" AnchorPane.topAnchor="15.0">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor></Button>
-        <Button layoutX="409.0" layoutY="5.0" mnemonicParsing="false" opacity="0.87" prefHeight="43.0" prefWidth="151.0" text="Dịch đoạn văn" textFill="#362b2b">
+        <Button focusTraversable="false" layoutX="316.0" layoutY="15.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="150.0" text="Dịch đoạn văn" textFill="#362b2b">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
             <cursor>
                 <Cursor fx:constant="HAND" />
-            </cursor></Button>
-        <Button fx:id="Add2" focusTraversable="false" layoutX="238.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchToMinigame" prefHeight="43.0" prefWidth="151.0" text="Minigame">
-            <font>
-                <Font name="Arial Bold" size="14.0" />
-            </font>
+            </cursor>
         </Button>
-      <TextArea fx:id="Text" editable="true" layoutX="56.0" layoutY="89.0" opacity="0.8" prefHeight="138.0" prefWidth="512.0">
+        <Button fx:id="Add2" focusTraversable="false" layoutX="467.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchToMinigame" opacity="0.5" prefHeight="43.0" prefWidth="150.0" text="Minigame">
+            <font>
+                <Font name="Arial Bold" size="14.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+      <TextArea fx:id="Text" editable="true" layoutX="56.0" layoutY="89.0" opacity="0.8" prefHeight="138.0" prefWidth="512.0" promptText="Nhập đoạn cần dịch">
          <cursor>
             <Cursor fx:constant="TEXT" />
          </cursor>
          <font>
-            <Font size="18.0" />
+            <Font size="16.0" />
          </font></TextArea>
       <TextArea fx:id="TextTrans" editable="false" layoutX="56.0" layoutY="305.0" opacity="0.8" prefHeight="138.0" prefWidth="512.0">
          <cursor>
             <Cursor fx:constant="DEFAULT" />
          </cursor>
          <font>
-            <Font size="18.0" />
+            <Font size="16.0" />
          </font></TextArea>
       <Button fx:id="VTE" layoutX="160.0" layoutY="248.0" mnemonicParsing="false" onMouseClicked="#ViToEn" opacity="0.85" prefHeight="33.0" prefWidth="78.0" text="VI - EN" textFill="#1a1b1b">
          <font>
@@ -76,6 +80,14 @@
             <Image url="@image/speaker.png" />
          </image>
       </ImageView>
+      <Button focusTraversable="false" layoutX="165.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#switchToAddDelete" opacity="0.5" prefHeight="43.0" prefWidth="150.0" text="Thêm/Xóa từ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+          <cursor>
+              <Cursor fx:constant="HAND" />
+          </cursor>
+      </Button>
 
     </children>
 </AnchorPane>
