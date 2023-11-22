@@ -38,8 +38,8 @@ public class DictionaryManagement extends Dictionary {
     }
 
     public static String dictionaryLookup(String word) {
-        ConnectJDBC connectJDBC = new ConnectJDBC();
-        Connection conn = connectJDBC.connect();
+//        ConnectJDBC connectJDBC = new ConnectJDBC();
+//        Connection conn = connectJDBC.connect();
 
         String query = "SELECT * FROM tbl_edict WHERE word = '" + word + "';";
 
@@ -66,7 +66,6 @@ public class DictionaryManagement extends Dictionary {
                 }
                 break;
             }
-            conn.close();
             if (result.equals("")) {
                 for (Word w:addedWord) {
                     if (word.equals(w.getWord())) {

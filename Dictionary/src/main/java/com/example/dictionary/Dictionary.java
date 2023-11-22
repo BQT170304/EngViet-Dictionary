@@ -10,11 +10,12 @@ import java.util.List;
 public class Dictionary extends Trie {
     public static Trie trie;
     public static List<Word> dictionary;
+    public static Connection conn;
     public Dictionary() {
         dictionary = new ArrayList<>();
         trie = new Trie();
         ConnectJDBC connectJDBC = new ConnectJDBC();
-        Connection conn = connectJDBC.connect();
+        conn = connectJDBC.connect();
 
         String query = "SELECT word FROM tbl_edict;";
 
@@ -28,7 +29,6 @@ public class Dictionary extends Trie {
                 dictionary.add(new Word(word));
                 trie.insert(word);
             }
-            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

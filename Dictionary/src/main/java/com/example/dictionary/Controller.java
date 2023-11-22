@@ -16,7 +16,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
+import java.util.Optional;
 import java.util.ResourceBundle;
 import javazoom.jl.player.Player;
 
@@ -28,7 +31,7 @@ import javafx.stage.Stage;
 public class Controller implements Initializable {
     public MediaPlayer mediaPlayer;
     @FXML
-    private TextField TypeArea;
+    private TextField typeArea;
     @FXML
     private TextArea meaningArea;
     @FXML
@@ -36,13 +39,13 @@ public class Controller implements Initializable {
     @FXML
     private Button Search;
 
-    public Controller() throws IOException {
+    public Controller() {
     }
 
     // Hien danh sach cac tu
     public void showWords(KeyEvent event) {
         try {
-            String look = TypeArea.getText();
+            String look = typeArea.getText();
             if (look.equals("")) {
                 ListWord.setItems(null);
                 return;
@@ -57,7 +60,7 @@ public class Controller implements Initializable {
     // click chuột vào từ tiếng anh để hiện ra nghĩa
     public void clicked(MouseEvent event){
         try {
-            TypeArea.setText(ListWord.getSelectionModel().getSelectedItem());
+            typeArea.setText(ListWord.getSelectionModel().getSelectedItem());
             meaningArea.setText(DictionaryManagement.dictionaryLookup(ListWord.getSelectionModel().getSelectedItem()));
         } catch (NullPointerException exception) {
             System.out.println("There is nothing");
@@ -66,7 +69,7 @@ public class Controller implements Initializable {
 
     @FXML
     public void clickSearchBtn(MouseEvent event) {
-        String input = TypeArea.getText();
+        String input = typeArea.getText();
         List<String> wordList = ListWord.getItems().stream().toList();
         if (wordList.size()==0) return;
         if (input.equals(wordList.get(0))) {
@@ -77,11 +80,38 @@ public class Controller implements Initializable {
     @FXML
     public void pressEnterToSearch(KeyEvent event) {
         if (event.getCode() == KeyCode.ENTER) {
-            String input = TypeArea.getText();
+            String input = typeArea.getText();
             List<String> wordList = ListWord.getItems().stream().toList();
             if (wordList.size()==0) return;
             if (input.equals(wordList.get(0))) {
                 meaningArea.setText(DictionaryManagement.dictionaryLookup(wordList.get(0)));
+            }
+        }
+    }
+
+    @FXML
+    public void modifyWord(KeyEvent event) {
+        if (event.getCode() == KeyCode.ENTER) {
+            Dialog dialog = new Dialog();
+            dialog.setHeaderText("Bạn có chắc muốn lưu thay đổi này?");
+            dialog.getDialogPane().getButtonTypes().add(ButtonType.YES);
+            dialog.getDialogPane().getButtonTypes().add(ButtonType.NO);
+            Optional<ButtonType> action = dialog.showAndWait();
+            if (action.isEmpty() || action.get() == ButtonType.NO) {
+                String previous = DictionaryManagement.dictionaryLookup(typeArea.getText());
+                meaningArea.setText(previous);
+                dialog.close();
+            } else if (action.get() == ButtonType.YES) {
+                // Thay doi detail trong sql
+                String query = "UPDATE tbl_edict SET detail = '" + meaningArea.getText() + "'" +
+                            "WHERE word = '" + typeArea.getText() +  "';";
+                try {
+                    Statement stm = Dictionary.conn.createStatement();
+                    int rowAffected = stm.executeUpdate(query);
+                    System.out.println("Số dòng bị ảnh hưởng: " + rowAffected);
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }

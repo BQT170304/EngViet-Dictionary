@@ -164,7 +164,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <TextField fx:id="TypeArea" layoutX="14.0" layoutY="73.0" onKeyPressed="#pressEnterToSearch" onKeyReleased="#showWords" prefHeight="30.0" prefWidth="261.0" promptText="Nhập từ tiếng Anh">
+        <TextField fx:id="typeArea" layoutX="14.0" layoutY="73.0" onKeyPressed="#pressEnterToSearch" onKeyReleased="#showWords" prefHeight="30.0" prefWidth="261.0" promptText="Nhập từ tiếng Anh">
             <font>
                 <Font size="14.0" />
             </font>
@@ -193,7 +193,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <TextArea fx:id="meaningArea" editable="false" focusTraversable="false" layoutX="312.0" layoutY="75.0" onMouseClicked="#clicked" prefHeight="459.0" prefWidth="306.0" wrapText="true">
+      <TextArea fx:id="meaningArea" layoutX="312.0" layoutY="75.0" onKeyPressed="#modifyWord" prefHeight="459.0" prefWidth="306.0" wrapText="true">
         <font>
             <Font size="16.0" />
         </font>
