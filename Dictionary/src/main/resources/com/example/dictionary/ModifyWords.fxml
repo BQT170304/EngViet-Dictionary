@@ -31,7 +31,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button fx:id="TranslateText" focusTraversable="false" layoutX="315.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchToTranslate" onMouseClicked="#switchToTranslate" opacity="0.5" prefHeight="43.0" prefWidth="151.0" text="Dịch đoạn văn" textFill="#362b2b">
+        <Button fx:id="TranslateText" focusTraversable="false" layoutX="316.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchToTranslate" onMouseClicked="#switchToTranslate" opacity="0.5" prefHeight="43.0" prefWidth="151.0" text="Dịch đoạn văn" textFill="#362b2b">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
@@ -39,7 +39,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Button fx:id="Minigame" focusTraversable="false" layoutX="467.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchToMinigame" onMouseClicked="#switchToMinigame" opacity="0.5" prefHeight="43.0" prefWidth="151.0" text="Minigame">
+        <Button fx:id="Minigame" focusTraversable="false" layoutX="468.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchToMinigame" onMouseClicked="#switchToMinigame" opacity="0.5" prefHeight="43.0" prefWidth="151.0" text="Minigame">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
@@ -56,11 +56,17 @@
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
       <Button layoutX="369.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#alertDelete" prefHeight="43.0" prefWidth="160.0" text="Xóa từ">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
     </children>
 </AnchorPane>

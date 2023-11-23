@@ -156,7 +156,7 @@
             <cursor>
                 <Cursor fx:constant="HAND" />
             </cursor></Button>
-        <Button layoutX="166.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#switchToAddDelete" opacity="0.5" prefHeight="43.0" prefWidth="150.0" text="Thêm/Xóa từ">
+        <Button layoutX="165.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#switchToAddDelete" opacity="0.5" prefHeight="43.0" prefWidth="150.0" text="Thêm/Xóa từ">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
@@ -193,21 +193,46 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <TextArea fx:id="meaningArea" layoutX="312.0" layoutY="75.0" onKeyPressed="#modifyWord" prefHeight="459.0" prefWidth="306.0" wrapText="true">
+      <TextArea fx:id="meaningArea" layoutX="312.0" layoutY="118.0" prefHeight="416.0" prefWidth="306.0" wrapText="true">
         <font>
             <Font size="16.0" />
         </font>
       </TextArea>
-      <Button layoutX="575.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#clickSoundBtn" opacity="0.33" prefHeight="30.0" prefWidth="42.0" />
-      <ImageView fitHeight="21.0" fitWidth="21.0" layoutX="588.0" layoutY="80.0" onMouseClicked="#clickSoundBtn" pickOnBounds="true" preserveRatio="true">
+      <Button layoutX="575.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#clickSoundBtn" opacity="0.33" prefHeight="30.0" prefWidth="42.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="21.0" fitWidth="21.0" layoutX="587.0" layoutY="122.0" onMouseClicked="#clickSoundBtn" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/speaker.png" />
          </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </ImageView>
       <ImageView fitHeight="20.0" fitWidth="24.0" layoutX="246.0" layoutY="79.0" onMouseClicked="#clickSearchBtn" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/seach_icon.png" />
          </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </ImageView>
+      <Button focusTraversable="false" layoutX="312.0" layoutY="73.0" mnemonicParsing="false" onMouseClicked="#modifyWord" prefHeight="30.0" prefWidth="151.0" text="Lưu thay đổi">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="466.0" layoutY="73.0" mnemonicParsing="false" onMouseClicked="#cancelModify" prefHeight="30.0" prefWidth="151.0" text="Hủy thay đổi">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
     </children>
 </AnchorPane>

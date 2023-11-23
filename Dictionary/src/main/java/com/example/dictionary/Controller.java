@@ -90,29 +90,35 @@ public class Controller implements Initializable {
     }
 
     @FXML
-    public void modifyWord(KeyEvent event) {
-        if (event.getCode() == KeyCode.ENTER) {
-            Dialog dialog = new Dialog();
-            dialog.setHeaderText("Bạn có chắc muốn lưu thay đổi này?");
-            dialog.getDialogPane().getButtonTypes().add(ButtonType.YES);
-            dialog.getDialogPane().getButtonTypes().add(ButtonType.NO);
-            Optional<ButtonType> action = dialog.showAndWait();
-            if (action.isEmpty() || action.get() == ButtonType.NO) {
-                String previous = DictionaryManagement.dictionaryLookup(typeArea.getText());
-                meaningArea.setText(previous);
-                dialog.close();
-            } else if (action.get() == ButtonType.YES) {
-                // Thay doi detail trong sql
-                String query = "UPDATE tbl_edict SET detail = '" + meaningArea.getText() + "'" +
-                            "WHERE word = '" + typeArea.getText() +  "';";
-                try {
-                    Statement stm = Dictionary.conn.createStatement();
-                    int rowAffected = stm.executeUpdate(query);
-                    System.out.println("Số dòng bị ảnh hưởng: " + rowAffected);
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+    public void modifyWord(MouseEvent event) {
+        Dialog dialog = new Dialog();
+        dialog.setHeaderText("Bạn có chắc muốn lưu thay đổi này?");
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.YES);
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.NO);
+        Optional<ButtonType> action = dialog.showAndWait();
+        if (action.isEmpty() || action.get() == ButtonType.NO) {
+            String previous = DictionaryManagement.dictionaryLookup(typeArea.getText());
+            meaningArea.setText(previous);
+            dialog.close();
+        } else if (action.get() == ButtonType.YES) {
+            // Thay doi detail trong sql
+            String query = "UPDATE tbl_edict SET detail = '" + meaningArea.getText() + "'" +
+                    "WHERE word = '" + typeArea.getText() +  "';";
+            try {
+                Statement stm = Dictionary.conn.createStatement();
+                int rowAffected = stm.executeUpdate(query);
+                System.out.println("Số dòng bị ảnh hưởng: " + rowAffected);
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
+        }
+    }
+
+    @FXML
+    public void cancelModify(MouseEvent event) {
+        String previous = DictionaryManagement.dictionaryLookup(typeArea.getText());
+        if (!previous.equals(meaningArea.getText())) {
+            meaningArea.setText(previous);
         }
     }
 

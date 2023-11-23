@@ -111,7 +111,7 @@ public class ControlTranslateText {
     public void clickSoundBtn2(MouseEvent event) {
         try {
             String urlStr = "https://translate.google.com/translate_tts?ie=UTF-8&tl="
-                    + "vi"
+                    + "en"
                     + "&client=tw-ob&q="
                     + URLEncoder.encode(TextTrans.getText(), StandardCharsets.UTF_8);
             URL url = new URL(urlStr);

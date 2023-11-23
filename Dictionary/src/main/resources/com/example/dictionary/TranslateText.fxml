@@ -68,17 +68,29 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="532.0" layoutY="89.0" mnemonicParsing="false" onMouseClicked="#clickSoundBtn1" opacity="0.1" prefHeight="34.0" prefWidth="34.0" />
-      <Button layoutX="534.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#clickSoundBtn2" opacity="0.1" prefHeight="34.0" prefWidth="34.0" />
+      <Button focusTraversable="false" layoutX="532.0" layoutY="89.0" mnemonicParsing="false" onMouseClicked="#clickSoundBtn1" opacity="0.1" prefHeight="34.0" prefWidth="34.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button focusTraversable="false" layoutX="534.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#clickSoundBtn2" opacity="0.1" prefHeight="34.0" prefWidth="34.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="539.0" layoutY="310.0" onMouseClicked="#clickSoundBtn2" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/speaker.png" />
          </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </ImageView>
       <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="539.0" layoutY="94.0" onMouseClicked="#clickSoundBtn1" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/speaker.png" />
          </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </ImageView>
       <Button focusTraversable="false" layoutX="165.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#switchToAddDelete" opacity="0.5" prefHeight="43.0" prefWidth="150.0" text="Thêm/Xóa từ">
          <font>
