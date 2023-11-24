@@ -1,505 +1,471 @@
-above|trên|/əˈbʌv/
-abstract|tóm tắt|/ˈæbstrækt/
-abstruse|khó hiểu|/əbˈstrʌs/
-accident|tai nạn|/ˈæksɪdɛnt/
-accurate|Chính xác|/ˈækjʊrɪt/
-acknowledgement|lời cảm ơn|/ˌæknɒlɪˈdʒmənt/
-after|sau|/ˈæftə/
-again|lại|/əˈɡeɪn/
-agreeable|Chấp thuận/ đồng ý|/əˈgriːəbəl/
-air|Không khí|/eə/
-all|tất cả|/ɔːl/
-also|cũng|/ˈɔːlsoʊ/
-analysis|phân tích|/əˈnæləsɪs/
-and|và|/ænd/
-animal|Động vật|/ˈænɪməl/
-answer|Câu trả lời|/ˈɑːnsər/
-any|bất kỳ|/ˈɛni/
-appendix|phụ lục|/əˈpɛndɪks/
-apple|táo|/ˈæpəl/
-are|là|/ɑː/
-argument|lập luận|/ˈɑːɡjumənt/
-argumentative essay|bài luận lập luận|/ˈɑːɡjuməntətɪv ˈesɪ/
-art|nghệ thuật|/ɑːrt/
-article|bài báo|/ˈɑːtɪkl/
-as|như|/æz/
-assiduous|chăm chỉ, cẩn thận|/əˈsɪdjuəs/
-assignment|bài tập|/əˈsɑːnmənt/
-at|tại|/æt/
-audacious|táo bạo, liều lĩnh|/əˈdɔːʃəs/
-auspicious|tốt lành, may mắn|/əˈspjʊʃəs/
-baby|em bé|/ˈbeɪbi/
-bag|túi|/bæg/
-ball|quả bóng|/bɔːl/
-be|là|/biː/
-beautiful|Xinh đẹp|/ˈbjuːtɪfəl/
-because|bởi vì|/biˈkɒz/
-bed|Giường|/bed/
-believe|tin|/bɪˈliːv/
-benevolent|nhân hậu, từ bi|/bəˈnevələnt/
-bibliography entry|mục thư mục|/ˌbɪblɪəˈɡrɑːfi ˈɛntri/
-bibliography|thư mục|/ˌbɪblɪəˈɡrɑːfi/
-bird|Con chim|/bɜːd/
-body|Cơ thể|/ˈbɒdi/
-book|Quyển sách|/bʊk/
-box|Chiếc hộp|/bɒks/
-but|nhưng|/bət/
-callous|không cảm xúc, vô cảm|/ˈkæləs/
-camera|máy ảnh|/ˈkæmərə/
-can|có thể|/kæn/
-can't|không thể|/kænt/
-capricious|thất thường, hay thay đổi|/kəˈprɪʃəs/
-car|ô tô|/kɑː/
-cat|con mèo|/kæt/
-cataclysm|thảm họa, tai họa|/ˈkætəlɪsm/
-cautious|thận trọng, cẩn thận|/ˈkɔːʃəs/
-ccasion|dịp, cơ hội|/əˈkeɪʒən/
-ceaseless|không ngừng, không ngừng nghỉ|/ˈsiːsləs/
-challenging|thách thức, khó khăn|/ˈtʃælɪnʤɪŋ/
-chapter|chương|/ˈtʃæptə/
-characteristic|đặc trưng, đặc điểm|/ˌkærəktəˈrɪstɪk/
-charismatic|lôi cuốn, hấp dẫn|/ˌkærəˈzmætɪk/
-chauvinistic|nam quyền, phân biệt giới tính|/ˈʃəʊvəˈnɪstɪk/
-chronological|theo thời gian, theo thứ tự thời gian|/ˌkrɒnəˈlɒdʒɪkəl/
-circumspect|thận trọng, cẩn thận|/ˌsɜːkəmˈspekt/
-citation|trích dẫn|/sɪˈteɪʃən/
-city|Thành phố|/ˈsɪti/
-clandestine|bí mật, kín đáo|/klaɪˈdenʃɪv/
-cliche|sáo rỗng, cũ kỹ|/ˈkliːʃeɪ/
-coalesce|hợp nhất, sáp nhập|/kəʊˈʌlseɪd/
-coincidence|trùng hợp, ngẫu nhiên|/kɒɪˈɪnsɪdɛns/
-colleague|đồng nghiệp|/ˈkɒliːɡ/
-commemorative|kỷ niệm, tưởng niệm|/ˌkɒməˈmɛrətɪv/
-commensurate|tương xứng, phù hợp|/kəˈmenʃərət/
-compassionate|nhân ái, thương xót|/kəmˈpæʃənət/
-complacent|tự mãn, thỏa mãn|/kəmˈpleɪsənt/
-comprehensive|toàn diện, bao quát|/kəmˈprɪhensɪv/
-computer|Máy tính|/kəmˈpjuːtə/
-concise|súc tích|/kənˈsɪs/
-conclusion|kết luận|/kənˈkluːʒən/
-concur|đồng ý, đồng thuận|/kənˈkɜː/
-condemn|lên án, kết án|/kənˈdem/
-condescending|khinh thường, coi thường|/ˌkɒndəˈsɛndɪŋ/
-confident|tự tin|/ˈkɒnfɪdənt/
-confidential|bí mật, kín đáo|/ˌkɒnfəˈdenʃəl/
-conflagration|hỏa hoạn, hỏa hoạn|/kənˈfləɡreɪʃən/
-congenial|hợp với nhau, hòa hợp|/kənˈdʒiːniəl/
-conscientious|có lương tâm, trung thực|/ˌkɒnʃɪˈenʃəs/
-consequence|hậu quả, hệ quả|/ˈkɒnsəkwəns/
-constitution|hiến pháp|/ˌkɒnˈstɪtjuːʃən/
-constructive|xây dựng, tích cực|/kənˈstrʌktɪv/
-contemporary|đương đại, hiện đại|/kənˈtempərəri/
-contemptuous|khinh thường, coi thường|/ˌkɒnˈtemptʃʊəs/
-content|nội dung, nội dung|/ˈkɒntɛnt/
-continue|tiếp tục|/kənˈtɪnjuː/
-contrite|ăn năn, hối hận|/kənˈtraɪt/
-corroborate|củng cố, xác nhận|/ˌkɔːrəˈbəreɪt/
-could|có thể|/kʊd/
-creative|Sáng tạo|/kriˈeɪtɪv/
-dangerous|Nguy hiểm|/ˈdeɪnʤrəs/
-data analysis|phân tích dữ liệu|/ˈdeɪtə əˈnæləsɪs/
-data|dữ liệu|/ˈdeɪtə/
-day|ngày|/deɪ/
-dearth|sự thiếu thốn, khan hiếm|/dɛːθ/
-difficult|Khó khăn|/ˈdɪfɪkəlt/
-diffident|thiếu tự tin, rụt rè|/ˈdɪfɪdənt/
-disconsolate|đau buồn, phiền muộn|/dɪsˈkɒnsələt/
-discussion section|phần thảo luận|/dɪˈskəʃən ˈsekʃən/
-discussion|thảo luận|/dɪˈskəʃən/
-dispassionate|không thiên vị, khách quan|/dɪsˈpæʃənət/
-do|làm|/duː/
-doctor|bác sĩ|/ˈdɒktə/
-document|tài liệu|/ˈdɒkjumənt/
-dog|con chó|/dɒɡ/
-door|cửa|/dɔː/
-dour|ảm đạm, tẻ nhạt|/daʊər/
-down|xuống|/daʊn/
-efficient|Hiệu quả|/ɪˈfɪʃənt/
-efflorescent|nở hoa, rực rỡ|/ˌefləˈresənt/
-egg|quả trứng|/ɛɡ/
-empirical research|nghiên cứu thực nghiệm|/ɪmˈpɪrɪkəl ˈrɪːsɜːʧ/
-ephemeral|ngắn ngủi, chóng qua|/ɪˈfemərəl/
-esoteric|bí ẩn, khó hiểu|/ɪˈsoʊterik/
-evaluation|đánh giá|/ˌɛvəlʊˈeɪʃən/
-evidence|bằng chứng|/ˈevɪdəns/
-exigent|khẩn cấp, cấp bách|/ɪɡˈzɪdʒənt/
-expensive|Đắt đỏ|/ɪkˈspensɪv/
-experiment|thí nghiệm|/ɪkˈspɛrɪmənt/
-extemporaneous|ứng khẩu, tùy hứng|/ɪkˈstænpəˈreɪnɪəs/
-eye|mắt|/aɪ/
-facilitate|tạo điều kiện, giúp đỡ|/fəˈsilɪteɪt/
-family|gia đình|/ˈfæməli/
-feel|cảm thấy|/fiːl/
-finish|kết thúc|/ˈfɪnɪʃ/
-fish|con cá|/fɪʃ/
-flamboyant|sặc sỡ, rực rỡ|/fləˈmɑːbənt/
-for|cho|/fɔːr/
-forget|quên|/fəˈɡɒt/
-fortuitous|tình cờ, may mắn|/fɔːˈtjuːɪtəs/
-friend|Bạn bè|/frɛnd/
-from|từ|/frɒm/
-furtive|lén lút, lén lút|/ˈfɜːtɪv/
-game|trò chơi|/ɡeɪm/
-germane|liên quan, phù hợp|/ˈdʒɜːmɪn/
-get|nhận được|/ɡet/
-girl|cô gái|/ɡɜːl/
-go|đi|/ɡəʊ/
-gullible|cả tin, dễ tin người|/ˈɡʌlɪbəl/
-had|đã|/hæd/
-hand|tay|/hænd/
-hat|mũ|/hæt/
-have to|phải|/hæv tə/
-have|có|/hæv/
-he|anh ấy|/hiː/
-healthy|Khỏe mạnh|/ˈhelθi/
-her|cô ấy|/hɜː/
-heterogeneous|khác biệt, đa dạng|/ˌhɛtəˈrɔdʒənəs/
-him|anh ấy|/hɪm/
-his|của anh ấy|/hɪz/
-holistic|toàn diện, toàn diện|/hɒˈlɪstɪk/
-horrible|Kinh khủng/ đáng ghét|/ˈhɒrɪbəl/
-house|ngôi nhà|/haʊs/
-how|như thế nào|/haʊ/
-hypothesis testing|kiểm tra giả thuyết|/haɪˈpɒθɪsɪs ˈtɛstɪŋ/
-hypothesis|giả thuyết|/haɪˈpɒθɪsɪs/
-i|tôi|/aɪ/
-ice cream|kem|/aɪs kriːm/
-ice|đá|/aɪs/
-if|nếu|/ɪf/
-ignominious|nhục nhã, sỉ nhục|/ɪɡˈnɒmɪnɪəs/
-immaculate|tinh khiết, thánh thiện|/ɪˈmækjulət/
-impartial|công bằng, vô tư|/ɪmˈpɑːʃəl/
-impeccable|hoàn hảo, không tì vết|/ɪˈmɛkəbl/
-impenetrable|không thể xuyên qua|/ɪmˈpenɪtrəbəl/
-impervious|không thấm, không thấm|/ɪmˈpɛrəˈbɪl/
-important|Quan trọng|/ɪmˈpɔːtənt/
-in|trong|/ɪn/
-independent|Độc lập|/ɪnˈdɪpəndənt/
-intelligent|Thông minh|/ɪnˈtɛlɪʤənt/
-interesting|Thú vị|/ˈɪntrəstɪŋ/
-introduction|phần mở đầu|/ˌɪntrəˈdʌkʃən/
-is|là|/ɪz/
-it|nó|/ɪt/
-jacket|áo khoác|/ˈʤækɪt/
-job|công việc|/dʒɒb/
-juice|nước trái cây|/dʒuːs/
-kaleidoscope|kính vạn hoa|/kəˈlaɪdəˌskoʊp/
-key|chìa khóa|/kiː/
-keyboard|bàn phím|/ˈkiːbɔːd/
-kind|tử tế, tốt bụng|/kaɪnd/
-kind-hearted|Tốt bụng|/kaɪndˈhɑːtɪd/
-kindness|lòng tốt, sự tử tế|/ˈkaɪndnəs/
-king|vua|/kɪŋ/
-kiss|hôn|/kɪs/
-kitchen|nhà bếp|/ˈkɪtʃən/
-knee|đầu gối|/niː/
-knock|gõ|/nɒk/
-knot|nút|/nɒt/
-know|biết|/nəʊ/
-knowledge|kiến thức|/ˈnɒlɪdʒ/
-labor|lao động|/ˈleɪbə/
-ladder|thang|/ˈlædə/
-lake|hồ|/leɪk/
-lamp|đèn|/læmp/
-language|ngôn ngữ|/ˈlæŋɡwɪdʒ/
-large|lớn|/lɑːʤ/
-last|cuối cùng|/lɑːst/
-late|muộn|/leɪt/
-laugh|cười|/lɑːf/
-leaf|lá|/liːf/
-learn|học|/lɜːn/
-leg|chân|/lɛg/
-lesson|bài học|/ˈlɛsən/
-letter|chữ cái|/ˈlɛtə/
-library|thư viện|/ˈlaɪbrəri/
-lie|nằm|/laɪ/
-life|cuộc sống|/laɪf/
-light|ánh sáng|/laɪt/
-like to|thích|/laɪk tə/
-likelihood|sự có thể xảy ra|/laɪklihud/
-like|thích|/laɪk/
-likely|có khả năng|/ˈlaɪkli/
-line|đường|/laɪn/
-lion|sư tử|/ˈlaɪən/
-list|danh sách|/lɪst/
-literature review essay|bài luận tổng quan tài liệu|/ˌlɪtərəˈtʃə riˈvjuː ˈesɪ/
-literature review|tổng quan tài liệu|/ˌlɪtərəˈtʃə riˈvjuː/
-little|nhỏ|/ˈlɪtl/
-live|sống|/lɪv/
-local|địa phương|/ˈlɒkəl/
-lock|khóa|/lɒk/
-long|dài|/lɒŋ/
-look|nhìn|/lʊk/
-lose|mất|/luːz/
-love to|yêu thích|/lʌv tə/
-love|yêu|/lʌv/
-loyal|Trung thành|/ˈlɔɪəl/
-make|làm|/meɪk/
-man|người đàn ông|/mæn/
-manage|quản lý|/ˈmænɪdʒ/
-management|sự quản lý|/ˈmænɪdʒmənt/
-manipulate|thao túng|/ˌmænɪˈpjuːleɪt/
-map|bản đồ|/mæp/
-market|thị trường|/ˈmɑːkɪt/
-marry|kết hôn|/ˈmæri/
-mass|khối lượng|/mæs/
-match|trận đấu, trận thi đấu|/mætʃ/
-material|vật liệu|/məˈtɪəriəl/
-mathematics|toán học|/ˌmæθəˈmætɪks/
-matter|vật chất|/ˈmætə/
-may|có thể|/meɪ/
-maybe|có thể|/ˈmeɪbiː/
-meal|bữa ăn|/miːl/
-mean|có nghĩa là|/miːn/
-meaning|ý nghĩa|/ˈmiːnɪŋ/
-measure|đo lường|/ˈmeʒə/
-meat|thịt|/miːt/
-meet|gặp gỡ|/miːt/
-meeting|cuộc họp|/ˈmiːtɪŋ/
-memory|trí nhớ|/ˈmemərɪ/
-men|đàn ông|/men/
-mention|đề cập, nhắc đến|/ˈmenʃən/
-mere|chỉ đơn giản|/mɪə/
-merit|công lao, công trạng|/ˈmerɪt/
-message|thông điệp|/ˈmesɪdʒ/
-method|phương pháp|/ˈmɛθəd/
-methodological approach|cách tiếp cận phương pháp luận|/ˌmɛθəˈdɒlədʒɪkəl əˈprəʊʧ/
-methodology|phương pháp luận|/ˌmɛθəˈdɒlədʒi/
-microphone|micro|/ˈmaɪkrəˌfoʊn/
-mile|dặm|/maɪl/
-milk|sữa|/mɪlk/
-mind|tâm trí|/maɪnd/
-minute|phút|/ˈmɪnɪt/
-miserable|đáng thương, đáng buồn|/ˈmɪzrəbl/
-miss|nhớ, thiếu|/mɪs/
-mistake|sai lầm|/mɪˈsteɪk/
-moment|khoảnh khắc|/ˈmɒmənt/
-money|tiền|/ˈmʌni/
-month|tháng|/mʌnθ/
-more|nhiều hơn|/mɔː/
-mother|mẹ|/ˈmʌðə/
-motion|chuyển động|/ˈməʊʃən/
-mount|leo lên|/maʊnt/
-mountain|núi|/ˈmaʊntɪn/
-mouse|chuột|/maʊs/
-mouth|miệng|/maʊθ/
-move|di chuyển|/muːv/
-much|nhiều|/mʌtʃ/
-music|âm nhạc|/ˈmjuːzɪk/
-must|phải|/mʌst/
-mustn't|không được|/mʌstnt/
-my|của tôi|/maɪ/
-name|tên|/neɪm/
-nation|quốc gia|/ˈnæʃn/
-natural|tự nhiên|/ˈnætʃərəl/
-nature|tự nhiên|/ˈnætʃə/
-near|gần|/nɪə/
-necessary|Cần thiết|/ˈnesɪsərɪ/
-neck|cổ|/nek/
-need|cần|/niːd/
-negative|phủ định|/ˈnɛɡətɪv/
-neighbor|hàng xóm|/ˈneɪbə/
-neither|không cái nào|/ˈnaɪðə/
-nerve|dây thần kinh|/nəːv/
-nest|tổ|/nest/
-net|lưới|/net/
-never|không bao giờ|/ˈnevə/
-new|mới|/njuː/
-news|tin tức|/njuːz/
-night|đêm|/naɪt/
-no|không|/nəʊ/
-noise|tiếng ồn|/nɔɪz/
-none|không có|/nʌn/
-nor|không|/nɔː/
-normal|bình thường|/ˈnɔːməl/
-north|bắc|/nɔːθ/
-nose|mũi|/nəʊz/
-not|không|/nɒt/
-note|ghi chú|/nəʊt/
-notice|thông báo|/ˈnɒtɪs/
-novel|tiểu thuyết|/ˈnɒvəl/
-now|bây giờ|/naʊ/
-number|số|/ˈnʌmbə/
-nurse|y tá|/nɜːs/
-nut|hạt|/nʌt/
-objective|khách quan|/əbˈdʒɛktɪv/
-ocean|đại dương|/ˈoʊʃən/
-odd|lẻ, kỳ lạ|/ɒd/
-of|của|/ɒv/
-off|tắt, khỏi|/ɒf/
-offer|đề nghị|/ˈɒfə/
-office|văn phòng|/ˈɒfɪs/
-official|chính thức|/əˈfɪʃəl/
-often|thường xuyên|/ˈɒfən/
-oil|dầu|/ɔɪl/
-old|già|/əʊld/
-on|trên|/ɒn/
-once|một lần|/wʌns/
-one|một|/wʌn/
-only|chỉ, duy nhất|/ˈɒnlɪ/
-open|mở|/ˈoʊpən/
-opinion|ý kiến|/əˈpɪnjən/
-opportunistic|Cơ hội|/ɒpəˈtjuːnɪstɪk/
-opportunity|cơ hội|/ˌɒpəˈtjuːnɪti/
-opposite|đối diện|/ˈɒpɒzɪt/
-option|lựa chọn|/ˈɒpʃən/
-or|hoặc|/ɔː/
-orange|quả cam|/ˈɒrɪnʤ/
-order|thứ tự, lệnh|/ˈɔːdə/
-organization|tổ chức|/ˌɔːgəˈnaɪˈzeɪʃən/
-origin|nguồn gốc|/ˈɒrɪdʒɪn/
-original|nguyên bản|/əˈrɪdʒənəl/
-other|khác|/ˈʌðə/
-our|của chúng ta|/aʊə/
-out|ra ngoài|/aʊt/
-outline essay|bài luận dàn ý|/ˈaʊtlʌɪn ˈesɪ/
-outline|dàn ý|/ˈaʊtlʌɪn/
-outside|bên ngoài|/ˌaʊtˈsaɪd/
-oven|lò nướng|/ˈʌvən/
-over|trên, vượt qua|/ˈəʊvə/
-own|của mình|/əʊn/
-oxygen|oxy|/ˈɒksɪdʒən/
-paragraph development|phát triển đoạn văn|/ˈpærəˌgræf ˈdɪˈvɛləpmənt/
-paragraph|đoạn văn|/ˈpærəˌgræf/
-park|công viên|/pɑːk/
-patient|Nhẫn nại|/ˈpeɪʃənt/
-peer review|thẩm định đồng nghiệp|/pɪr ˈrɪvjuː/
-pen|cây bút|/pen/
-pencil|bút chì|/ˈpɛnsl/
-perfect|Hoàn hảo|/ˈpɜːfɪkt/
-person|Người|/ˈpɜːsən/
-phone|điện thoại|/fəʊn/
-plagiarism|đạo văn|/ˈpleɪdʒərɪzəm/
-possible|Có thể|/ˈpɒsəbəl/
-powerful|Quyền lực, mạnh mẽ|/ˈpaʊəfʊl/
-problem|vấn đề|/ˈprɒbləm/
-proposal|đề xuất|/prəˈpəʊzl/
-quantitative research|nghiên cứu định lượng|/kwɒnˈtɪtɪtɪv ˈrɪːsɜːʧ/
-queen|nữ hoàng|/kwiːn/
-question|câu hỏi|/ˈkwɛstʃən/
-quick|Nhanh chóng|/kwɪk/
-red|đỏ|/rɛd/
-remember|nhớ|/rɪˈmɛmbə/
-research paper|bài báo nghiên cứu|/ˈrɪːsɜːʧ peɪpə/
-research|nghiên cứu|/ˈrɪːsɜːʧ/
-responsible|Có trách nhiệm|/rɪˈspɒnsəbəl/
-result|kết quả|/rɪˈzʌlt/
-results section|phần kết quả|/rɪˈzʌlts ˈsekʃən/
-review|đánh giá|/rɪˈvjuː/
-room|phòng|/ruːm/
-sabotage|phá hoại|/ˈsæbəˈtaːʒ/
-sad|Buồn|/sæd/
-salubrious|lành mạnh, tốt cho sức khỏe|/səˈluːbriəs/
-sanctimonious|đạo đức giả, giả tạo|/ˌsænktəˈmɪniəs/
-sanguinary|đẫm máu, tàn bạo|/ˈsæŋɡwinəri/
-sardonic|mỉa mai, châm biếm|/ˈsɑːdənɪk/
-say|nói|/seɪ/
-sceptical|hoài nghi, ngờ vực|/ˈskeptɪkəl/
-scholarly writing|viết học thuật|/ˈskɒləli ˈraɪtɪŋ/
-school|trường học|/skuːl/
-scintillating|lấp lánh, rực rỡ|/sɪnˈtɪlɪeɪtɪŋ/
-scornful|khinh thường, coi thường|/ˈskzɔːnful/
-sea|Biển|/siː/
-secluded|hẻo lánh, xa xôi|/sɪˈkluːdɪd/
-section|phần|/ˈsɛkʃən/
-see|nhìn thấy|/siː/
-seem|có vẻ như|/siːm/
-seminal|có tính chất quyết định, có tính chất khởi đầu|/ˈsemɪnəl/
-sentimental|tình cảm, nhạy cảm|/sɛnˈtɪmentl/
-serene|bình tĩnh, êm đềm|/sɪˈriːn/
-serious|Nghiêm túc|/ˈsɪərɪəs/
-sesquipedalian|dài dòng, rắc rối|/sɛskwɪˈpɛdəliən/
-she|cô ấy|/ʃiː/
-should|nên|/ʃʊd/
-shouldn't|không nên|/ʃʊdnt/
-shy|Nhút nhát|/ʃaɪ/
-slanderous|vu khống, bôi nhọ|/ˈslændərəəs/
-sly|tinh ranh, ranh mãnh|/slaɪ/
-small|Nhỏ|/smɔːl/
-so|vậy|/səʊ/
-some|một số|/sʌm/
-sophisticated|phức tạp, tinh vi|/sɒfɪˈsɪkeɪtɪd/
-source|nguồn|/sɔːs/
-specious|bề ngoài, giả tạo|/ˈspiːʃəs/
-spontaneous|tự phát, tự nhiên|/spɒnˈteɪnɪəs/
-stagnant|trì trệ, thối nát|/ˈstæɡnənt/
-start|bắt đầu|/stɑːt/
-statistic|số liệu thống kê|/stəˈtɪstɪk/
-statistical analysis|phân tích thống kê|/stəˈtɪstɪkəl əˈnæləsɪs/
-stereotype|định kiến, thành kiến|/ˈstɛriəˌtaɪp/
-sterling|chân chính, đáng tin cậy|/ˈstərlɪŋ/
-stirring|xúc động, cảm động|/ˈstɜːrɪŋ/
-stop|dừng lại|/stɒp/
-strenuous|gắng sức, cố gắng|/ˈstrenɪəs/
-striking|nổi bật, ấn tượng|/ˈstraɪkɪŋ/
-strong|Mạnh mẽ|/strɒŋ/
-sublime|cao quý, tuyệt vời|/sʌˈblaɪm/
-succinct|ngắn gọn, súc tích|/ˈsʌk.sɪnt/
-suffrage|quyền bầu cử|/ˈsʌf.rɪdʒ/
-sullen|lầm lì|/ˈsʌl.ən/
-sun|mặt trời|/sʌn/
-supercilious|kiêu ngạo, tự phụ|/ˌsuːpəˈsɪlɪəs/
-superfluous|thừa thãi, dư thừa|/ˌsuːpəˈfluːəs/
-supernatural|siêu nhiên|/ˌsuːpəˈnætʃərəl/
-suppress|đàn áp, dập tắt|/səˈpres/
-surreptitious|lén lút|/ˌsuːpəˈrep.tɪʃəs/
-suspicion|nghi ngờ|/səˈspɪʃ.ən/
-suspicious|đáng ngờ|/səˈspɪʃ.əs/
-swagger|vênh váo, kiêu ngạo|/ˈswɒɡə/
-sweltering|oi bức, ngột ngạt|/ˈsweltərɪŋ/
-syllabus|chương trình giảng dạy|/ˈsɪləbəs/
-sympathize|thông cảm, chia sẻ|/ˈsɪm.pə.θaɪz/
-sympathy|sự thông cảm, sự đồng cảm|/ˈsɪm.pə.θi/
-synthesis|tổng hợp|/ˈsɪn.θə.sɪs/
-table|bàn|/ˈteɪbl/
-taciturn|ít nói, trầm lắng|/ˈtæk.ɪ.tɜːn/
-take|lấy|/teɪk/
-talented|Tài năng|/ˈtæləntɪd/
-terrible|Khủng khiếp|/ˈterəbəl/
-that|rằng|/ðæt/
-the|cái|/ðə/
-their|của họ|/ðeə/
-them|họ|/ðəm/
-then|sau đó|/ðen/
-theory|lý thuyết|/ˈθɪəɹi/
-there|ở đó|/ðeə/
-these|những cái này|/ðiːz/
-thesis statement|tuyên bố luận án|/ˈθiːsis ˈsteɪtmənt/
-they|họ|/ðeɪ/
-think|nghĩ|/θɪŋk/
-this|cái này|/ðɪs/
-thoughtful|Chu đáo|/ˈθɔːtfʊl/
-to|đến|/tuː/
-topic sentence|câu chủ đề|/ˈtɒpɪk ˈsentəns/
-topic|chủ đề|/ˈtɒpɪk/
-tree|cây|/triː/
-try|cố gắng|/trai/
-umbrella|ô|/ʌmˈbɾɛlə/
-understand|hiểu|/ˌʌndəˈstænd/
-unique|Độc đáo|/juˈniːk/
-university|trường đại học|/juːnɪˈvɜːsəti/
-useful|Hữu ích|/ˈjuːsfʊl/
-van|xe tải nhỏ|/væn/
-variable|biến|/ˈvɛrɪəbl/
-vegetable|rau|/ˈvedʒɪtəbəl/
-vicious|Ác độc|/ˈvɪʃəs/
-want to|muốn|/wɒnt tə/
-want|muốn|/wɒnt/
-was|là|/wɒz/
-water|nước|/ˈwɔːtə/
-will|sẽ|/wɪl/
-wise|Khôn ngoan|/waɪz/
-with|với|/wɪð/
-woman|Người phụ nữ|/ˈwʊmən/
-won't|sẽ không|/wəʊnt/
-work cited|danh sách tài liệu tham khảo|/ˈwəːk sʌɪtɪd/
-writing style|phong cách viết|/ˈraɪtɪŋ staɪl/
-x-ray|tia X|/ˌeks ˈreɪ/
-xylophone|đàn xích đu|/ˈzaɪləˌfoʊn/
-yard|sân|/jɑːd/
-year|năm|/jɪə/
-you|bạn|/juː/
-young|Trẻ|/jʌŋ/
-zebra|ngựa vằn|/ˈzebrə/
-zero|số 0|/ˈzɪərəʊ/
-zoo|sở thú|/zuː/
+above
+abstract
+abstruse
+accident
+accurate
+acknowledgement
+after
+again
+agreeable
+air
+all
+also
+analysis
+and
+animal
+answer
+any
+appendix
+apple
+are
+argument
+art
+article
+as
+assiduous
+assignment
+at
+audacious
+auspicious
+baby
+bag
+ball
+be
+beautiful
+because
+bed
+believe
+benevolent
+bibliography entry
+bibliography
+bird
+body
+book
+box
+but
+callous
+camera
+can
+capricious
+car
+cat
+cataclysm
+cautious
+ccasion
+ceaseless
+challenging
+chapter
+characteristic
+charismatic
+chauvinistic
+chronological
+circumspect
+citation
+city
+clandestine
+cliche
+coalesce
+coincidence
+colleague
+commemorative
+commensurate
+compassionate
+complacent
+comprehensive
+computer
+concise
+conclusion
+concur
+condemn
+condescending
+confident
+confidential
+conflagration
+congenial
+conscientious
+consequence
+constitution
+constructive
+contemporary
+contemptuous
+content
+continue
+contrite
+corroborate
+could
+creative
+dangerous
+data analysis
+data
+day
+dearth
+difficult
+diffident
+disconsolate
+discussion
+dispassionate
+do
+doctor
+document
+dog
+door
+dour
+down
+efficient
+efflorescent
+egg
+ephemeral
+esoteric
+evaluation
+evidence
+exigent
+expensive
+experiment
+extemporaneous
+eye
+facilitate
+family
+feel
+finish
+fish
+flamboyant
+for
+forget
+fortuitous
+friend
+from
+furtive
+game
+germane
+get
+girl
+go
+gullible
+had
+hand
+hat
+have
+he
+healthy
+her
+heterogeneous
+him
+his
+holistic
+horrible
+house
+how
+hypothesis
+i
+ice cream
+ice
+if
+ignominious
+immaculate
+impartial
+impeccable
+impenetrable
+impervious
+important
+in
+independent
+intelligent
+interesting
+introduction
+is
+it
+jacket
+job
+juice
+kaleidoscope
+key
+keyboard
+kind
+kindness
+king
+kiss
+kitchen
+knee
+knock
+knot
+know
+knowledge
+labor
+ladder
+lake
+lamp
+language
+large
+last
+late
+laugh
+leaf
+learn
+leg
+lesson
+letter
+library
+lie
+life
+light
+likelihood
+like
+likely
+line
+lion
+list
+little
+live
+local
+lock
+long
+look
+lose
+love
+loyal
+make
+man
+manage
+management
+manipulate
+map
+market
+marry
+mass
+match
+material
+mathematics
+matter
+may
+maybe
+meal
+mean
+meaning
+measure
+meat
+meet
+meeting
+memory
+men
+mention
+mere
+merit
+message
+method
+methodology
+microphone
+mile
+milk
+mind
+minute
+miserable
+miss
+mistake
+moment
+money
+month
+more
+mother
+motion
+mount
+mountain
+mouse
+mouth
+move
+much
+music
+must
+my
+name
+nation
+natural
+nature
+near
+necessary
+neck
+need
+negative
+neighbor
+neither
+nerve
+nest
+net
+never
+new
+news
+night
+no
+noise
+none
+nor
+normal
+north
+nose
+not
+note
+notice
+novel
+now
+number
+nurse
+nut
+objective
+ocean
+odd
+of
+off
+offer
+office
+official
+often
+oil
+old
+on
+once
+one
+only
+open
+opinion
+opportunistic
+opportunity
+opposite
+option
+or
+orange
+order
+organization
+origin
+original
+other
+our
+out
+outline
+outside
+oven
+over
+own
+oxygen
+paragraph
+park
+patient
+pen
+pencil
+perfect
+person
+phone
+plagiarism
+possible
+powerful
+problem
+proposal
+queen
+question
+quick
+red
+remember
+research
+responsible
+result
+review
+room
+sabotage
+sad
+salubrious
+sanctimonious
+sanguinary
+sardonic
+say
+sceptical
+school
+scintillating
+scornful
+sea
+secluded
+section
+see
+seem
+seminal
+sentimental
+serene
+serious
+sesquipedalian
+she
+should
+shy
+slanderous
+sly
+small
+so
+some
+sophisticated
+source
+specious
+spontaneous
+stagnant
+start
+statistic
+stereotype
+sterling
+stop
+strenuous
+striking
+strong
+sublime
+succinct
+suffrage
+sun
+supercilious
+superfluous
+supernatural
+suppress
+suspicion
+suspicious
+swagger
+sweltering
+syllabus
+sympathize
+sympathy
+synthesis
+table
+taciturn
+take
+talented
+terrible
+that
+the
+their
+them
+then
+theory
+there
+these
+they
+think
+this
+thoughtful
+to
+topic
+tree
+try
+umbrella
+understand
+unique
+university
+useful
+variable
+vegetable
+want
+was
+water
+will
+wise
+with
+woman
+xylophone
+yard
+year
+you
+young
+zebra
+zero
+zoo
