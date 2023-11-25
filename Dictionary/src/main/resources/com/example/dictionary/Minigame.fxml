@@ -54,131 +54,209 @@
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="B">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="C">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="D">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="E">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="F">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="G">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="H">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="I">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="J">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="K">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="L">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="M">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="N">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="O">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="P">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="Q">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="R">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="S">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="T">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="U">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="V">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="W">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="X">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="Y">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
             <Button focusTraversable="false" mnemonicParsing="false" onAction="#onClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #5390D9;" text="Z">
                <font>
                   <Font size="15.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
          </children>
       </FlowPane>
@@ -197,8 +275,14 @@
             <Font size="18.0" />
          </font>
       </Text>
-      <Button focusTraversable="false" layoutX="14.0" layoutY="86.0" mnemonicParsing="false" onAction="#newGame" prefHeight="43.0" prefWidth="74.0" style="-fx-background-color: #5390D9;" text="New Game" />
-      <ImageView fx:id="imageView" fitHeight="200.0" fitWidth="200.0" layoutX="89.0" layoutY="86.0" onDragDetected="#onClick" pickOnBounds="true" preserveRatio="true">
+      <Button focusTraversable="false" layoutX="14.0" layoutY="86.0" mnemonicParsing="false" onAction="#newGame" prefHeight="43.0" prefWidth="100.0" style="-fx-background-color: #5390D9;" text="New Game">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+      <ImageView fx:id="imageView" fitHeight="200.0" fitWidth="200.0" layoutX="116.0" layoutY="86.0" onDragDetected="#onClick" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/0.png" />
          </image>

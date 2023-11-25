@@ -2,16 +2,12 @@ package com.example.dictionary;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.event.ActionEvent;
-import javax.speech.EngineException;
+
 import java.io.IOException;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.Button;
+
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import java.io.FileNotFoundException;
@@ -23,11 +19,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-
 
 
 public class ControlMinigame {
@@ -58,7 +50,7 @@ public class ControlMinigame {
 
     private int mistakes;
     private int correct;
-    private Words word = new Words();
+    private GameWords word = new GameWords();
     private String myWord;
     private List<String> myLetters;
     private List<String> answer;

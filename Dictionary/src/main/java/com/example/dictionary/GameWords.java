@@ -1,26 +1,22 @@
 package com.example.dictionary;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Words{
+public class GameWords {
 
     private ArrayList<String> words;
 
 
-    public Words() throws FileNotFoundException {
+    public GameWords() {
         words = new ArrayList<>();
-        Scanner sc = new Scanner(new File("D:\\dumamay\\Baitaplon\\Dictionary\\src\\main\\resources\\com\\example\\dictionary\\dictionary.txt"));
+        Scanner sc = new Scanner(getClass().getResourceAsStream("data/dictionary.txt"));
         while(sc.hasNextLine()) words.add(sc.nextLine());
     }
 
     public String getRandomWord(){
         return words.get(new Random().nextInt(words.size())).toUpperCase();
     }
-
-
 
 }
