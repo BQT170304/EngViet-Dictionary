@@ -6,7 +6,6 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -38,9 +37,6 @@ public class DictionaryManagement extends Dictionary {
     }
 
     public static String dictionaryLookup(String word) {
-//        ConnectJDBC connectJDBC = new ConnectJDBC();
-//        Connection conn = connectJDBC.connect();
-
         String query = "SELECT * FROM tbl_edict WHERE word = '" + word + "';";
 
         Statement stm = null;

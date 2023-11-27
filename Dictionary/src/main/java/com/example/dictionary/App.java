@@ -5,7 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import java.io.IOException;
 import javafx.scene.Parent;
 
 public class App extends Application {
@@ -26,7 +25,7 @@ public class App extends Application {
         }
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Dictionary dictionary = new Dictionary();
         launch();
     }

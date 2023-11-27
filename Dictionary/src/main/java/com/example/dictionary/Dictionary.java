@@ -19,9 +19,8 @@ public class Dictionary extends Trie {
 
         String query = "SELECT word FROM tbl_edict;";
 
-        Statement stm = null;
         try {
-            stm = conn.createStatement();
+            Statement stm = conn.createStatement();
 
             ResultSet rs = stm.executeQuery(query);
             while (rs.next()) {
