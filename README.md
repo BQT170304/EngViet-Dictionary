@@ -14,7 +14,7 @@ App Học Tiếng Anh cung cấp các tính năng sau:
 * **Chỉnh sửa từ:**
     * Người dùng có thể chỉnh sửa nghĩa, ví dụ hoặc cách phát âm của từ trong từ điển.
 * **Minigame:**
-    * Cung cấp các minigame thú vị củng cố từ vựng, giúp người dùng ghi nhớ từ vựng lâu hơn.
+    * Cung cấp minigame thú vị củng cố từ vựng, giúp người dùng ghi nhớ từ vựng lâu hơn.
 * **Dịch văn bản:**
     * Người dùng có thể dịch văn bản từ tiếng Anh sang tiếng Việt và ngược lại.
     * Đồng thời có thể luyện nghe cả đoạn văn tiếng Việt và tiếng Anh.
